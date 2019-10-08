@@ -1,4 +1,4 @@
-#Pipeline for SNP calling using GATK
+# Pipeline for SNP calling using GATK
 
 PREPROCESS READS
 
