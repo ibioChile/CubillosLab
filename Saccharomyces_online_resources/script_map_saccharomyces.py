@@ -8,7 +8,7 @@ import base64
 import io
 
 
-df = pd.read_csv("/Users/pamelacamejo/Documents/IBIO/Francisco Cubillos/Website/sacc_location.csv")
+df = pd.read_csv("sacc_location.csv")
 
 resolution, width, height = 100, 6, 6
 
@@ -76,4 +76,4 @@ for loc in df.LOCATION.unique():
 
 map.add_child(folium.LayerControl())
 
-map.save(outfile='/Users/pamelacamejo/Documents/IBIO/Francisco Cubillos/Website/map.html')
+map.save(outfile='map.html')
