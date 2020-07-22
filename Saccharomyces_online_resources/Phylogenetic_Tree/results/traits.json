@@ -1,0 +1,1861 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "9.0.0"
+  },
+  "models": {
+    "location": {
+      "alphabet": [
+        "Altos de Lircay",
+        "Choshuenco",
+        "Coyhaique",
+        "Karukinka",
+        "Magallanes",
+        "Nahuelbuta",
+        "Puyehue",
+        "Torres del Paine",
+        "V Osorno",
+        "Villarrica",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.07117935696306037,
+        0.09479142736993994,
+        0.10492633463380434,
+        0.11056925657943491,
+        0.0960142889216383,
+        0.1606371749830888,
+        0.10182139481097004,
+        0.07900895311147721,
+        0.09214057859610521,
+        0.08891123403048086
+      ],
+      "rate": 70.35136695094387,
+      "transition_matrix": [
+        [
+          0.0,
+          0.8057356759926765,
+          0.8057271341711886,
+          0.8065115013043128,
+          0.8039459267918106,
+          1.7880060018487998,
+          0.8686139999896811,
+          0.8520536782529391,
+          0.8234989686513721,
+          0.831003009689145
+        ],
+        [
+          0.8057356759926765,
+          0.0,
+          0.8178243365225887,
+          0.8210361281587903,
+          0.8079510158221271,
+          0.8987369963832549,
+          1.4801770877971858,
+          0.8754392416394837,
+          0.8408285328186363,
+          1.8332853002461802
+        ],
+        [
+          0.8057271341711886,
+          0.8178243365225887,
+          0.0,
+          1.6444145488544308,
+          0.822954140192785,
+          0.9338286022464903,
+          0.9458231456367285,
+          1.3992489713853862,
+          0.8629365335531748,
+          1.146444364850322
+        ],
+        [
+          0.8065115013043128,
+          0.8210361281587903,
+          1.6444145488544308,
+          0.0,
+          0.8354811203897425,
+          0.9335530815379636,
+          0.9622169817547307,
+          1.4615690343174734,
+          0.8627914977382232,
+          1.2181490317834138
+        ],
+        [
+          0.8039459267918106,
+          0.8079510158221271,
+          0.822954140192785,
+          0.8354811203897425,
+          0.0,
+          0.8880457116960987,
+          0.8903655700903804,
+          1.3532093678626052,
+          0.8321196902723005,
+          0.8261071028471958
+        ],
+        [
+          1.7880060018487998,
+          0.8987369963832549,
+          0.9338286022464903,
+          0.9335530815379636,
+          0.8880457116960987,
+          0.0,
+          1.3748686803664711,
+          1.6011545694468048,
+          1.2421555169715321,
+          1.577530422246252
+        ],
+        [
+          0.8686139999896811,
+          1.4801770877971858,
+          0.9458231456367285,
+          0.9622169817547307,
+          0.8903655700903804,
+          1.3748686803664711,
+          0.0,
+          1.106956325250883,
+          1.0440057458630096,
+          2.1812576587108965
+        ],
+        [
+          0.8520536782529391,
+          0.8754392416394837,
+          1.3992489713853862,
+          1.4615690343174734,
+          1.3532093678626052,
+          1.6011545694468048,
+          1.106956325250883,
+          0.0,
+          1.2382500311200697,
+          1.0613023125411272
+        ],
+        [
+          0.8234989686513721,
+          0.8408285328186363,
+          0.8629365335531748,
+          0.8627914977382232,
+          0.8321196902723005,
+          1.2421555169715321,
+          1.0440057458630096,
+          1.2382500311200697,
+          0.0,
+          1.6728928415519924
+        ],
+        [
+          0.831003009689145,
+          1.8332853002461802,
+          1.146444364850322,
+          1.2181490317834138,
+          0.8261071028471958,
+          1.577530422246252,
+          2.1812576587108965,
+          1.0613023125411272,
+          1.6728928415519924,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "CDFM21L": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09534573301791051,
+        "Nahuelbuta": 0.21409939405030315,
+        "Torres del Paine": 0.10157201604561204,
+        "V Osorno": 0.10180850024326914
+      },
+      "location_entropy": 2.2389405617655456
+    },
+    "CL1001.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1002.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1003.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1004.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1005.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1006.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1007.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1008.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL1009.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1010.1": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1101.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL1104.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL1105.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1106.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1108.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL1109.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL1110.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL1111.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL1112.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL204.3": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL210.1": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL211.3": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL212.2": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL215.1": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL216.1": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL218.1": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL220.3": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL221.1": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL248.1": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL444.2": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL446.2": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL447.3": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL448.1": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL449.1": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL450.1": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL451.4": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL467.2": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL471.2": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL601.1": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL604.1": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL605.1": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "V Osorno": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL606.1": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "V Osorno": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL607.1": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL608.1": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL609.1": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL610.1": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL611.1": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL619.1": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "V Osorno": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL620.1": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "V Osorno": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL621.1": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "V Osorno": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL701.1": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL702.1": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL703.2": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL704.2": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL705.1": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL706.2": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL710.1": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL711.2": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL715.1": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL801.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL803.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL804.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL807.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL810.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL812.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL813.1": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL814.1": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL815.1": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL816.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL817.1": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL821.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL824.1": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL835.1": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL902.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL903.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL904.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL905.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL906.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL907.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL909.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL910.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CL915.1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.9999999999999999
+      },
+      "location_entropy": -9.99866855976916e-13
+    },
+    "CL916.1": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 1.0
+      },
+      "location_entropy": -1.000088900581841e-12
+    },
+    "CRUB1568": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.08523632659518805,
+        "Nahuelbuta": 0.14674485744534332,
+        "Torres del Paine": 0.33714135929188593,
+        "V Osorno": 0.11723234162129692
+      },
+      "location_entropy": 2.0191821847196794
+    },
+    "NODE_0000000": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.30428697285887124,
+        "Torres del Paine": 0.20071459880412126,
+        "V Osorno": 0.1326476664725388,
+        "Villarrica": 0.0747311469226335
+      },
+      "location_entropy": 2.0089037280478768
+    },
+    "NODE_0000001": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.22152370085575385,
+        "Puyehue": 0.13078488162654503,
+        "Torres del Paine": 0.12493134583025314,
+        "V Osorno": 0.10804415122298214
+      },
+      "location_entropy": 2.2008233713558933
+    },
+    "NODE_0000002": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Choshuenco": 0.0667000140961269,
+        "Nahuelbuta": 0.12647260514767986,
+        "Puyehue": 0.3979280485674887,
+        "Villarrica": 0.08353809467808988
+      },
+      "location_entropy": 1.9602993892345637
+    },
+    "NODE_0000003": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Karukinka": 0.0882607158373662,
+        "Nahuelbuta": 0.15108487040586965,
+        "Puyehue": 0.21706915289068082,
+        "Villarrica": 0.09443480451461758
+      },
+      "location_entropy": 2.213801594994132
+    },
+    "NODE_0000004": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Coyhaique": 0.09926553384798043,
+        "Karukinka": 0.10489426788249238,
+        "Nahuelbuta": 0.160203555491169,
+        "Puyehue": 0.124652209145681
+      },
+      "location_entropy": 2.2737769126405154
+    },
+    "NODE_0000005": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Karukinka": 0.09418981201928324,
+        "Nahuelbuta": 0.1551243248765675,
+        "Puyehue": 0.18154610585333825,
+        "Villarrica": 0.09468085079521779
+      },
+      "location_entropy": 2.2438166654594207
+    },
+    "NODE_0000006": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Karukinka": 0.09571237054304188,
+        "Nahuelbuta": 0.15604257540725608,
+        "Puyehue": 0.17281661037425872,
+        "Villarrica": 0.09458463930438549
+      },
+      "location_entropy": 2.249960648690003
+    },
+    "NODE_0000007": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09693073089352594,
+        "Nahuelbuta": 0.1865313422884415,
+        "Puyehue": 0.11393985248294754,
+        "V Osorno": 0.10068347767688465
+      },
+      "location_entropy": 2.2586738759576517
+    },
+    "NODE_0000008": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09792718181200975,
+        "Nahuelbuta": 0.1846369025353301,
+        "Puyehue": 0.11304162271074654,
+        "V Osorno": 0.10020836967872203
+      },
+      "location_entropy": 2.260768782827969
+    },
+    "NODE_0000009": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09885031489370884,
+        "Nahuelbuta": 0.18288187881857215,
+        "Puyehue": 0.11221099512511107,
+        "V Osorno": 0.09975770399601327
+      },
+      "location_entropy": 2.262616130971582
+    },
+    "NODE_0000010": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09792718181200975,
+        "Nahuelbuta": 0.1846369025353301,
+        "Puyehue": 0.11304162271074654,
+        "V Osorno": 0.10020836967872203
+      },
+      "location_entropy": 2.260768782827969
+    },
+    "NODE_0000011": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09885031489370884,
+        "Nahuelbuta": 0.18288187881857215,
+        "Puyehue": 0.11221099512511107,
+        "V Osorno": 0.09975770399601327
+      },
+      "location_entropy": 2.262616130971582
+    },
+    "NODE_0000012": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.3880137967273178,
+        "Torres del Paine": 0.2816656230775471,
+        "V Osorno": 0.15208432294572535,
+        "Villarrica": 0.05972756762934356
+      },
+      "location_entropy": 1.6272889583941277
+    },
+    "NODE_0000013": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.49293397127688193,
+        "Torres del Paine": 0.22376181735525102,
+        "V Osorno": 0.12188054173262358,
+        "Villarrica": 0.0510475110691919
+      },
+      "location_entropy": 1.521619381777945
+    },
+    "NODE_0000014": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.08076458429578784,
+        "Nahuelbuta": 0.2700983438675349,
+        "Torres del Paine": 0.12601867319541155,
+        "V Osorno": 0.10773304097882634
+      },
+      "location_entropy": 2.1627020177278493
+    },
+    "NODE_0000015": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09696845665410128,
+        "Nahuelbuta": 0.20805696851130687,
+        "Torres del Paine": 0.09895030188515118,
+        "V Osorno": 0.10103468317603072
+      },
+      "location_entropy": 2.2451448416573387
+    },
+    "NODE_0000016": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.08686099407788765,
+        "Nahuelbuta": 0.24636239703946047,
+        "Torres del Paine": 0.11563402422467092,
+        "V Osorno": 0.10544403590450654
+      },
+      "location_entropy": 2.1990470087930927
+    },
+    "NODE_0000017": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09243116848259093,
+        "Nahuelbuta": 0.22506445006843093,
+        "Torres del Paine": 0.10634118603964016,
+        "V Osorno": 0.10312816601481344
+      },
+      "location_entropy": 2.226643595113981
+    },
+    "NODE_0000018": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.8560888889266834,
+        "Torres del Paine": 0.05839155980718777,
+        "V Osorno": 0.03026476680754285,
+        "Villarrica": 0.016559699091541265
+      },
+      "location_entropy": 0.6653835401506715
+    },
+    "NODE_0000019": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Altos de Lircay": 0.004907588271708009,
+        "Nahuelbuta": 0.9879335993394581,
+        "Torres del Paine": 0.0022531169903184426,
+        "Villarrica": 0.0015943067311931798
+      },
+      "location_entropy": 0.08640251677985393
+    },
+    "NODE_0000020": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Altos de Lircay": 0.012287644158287807,
+        "Nahuelbuta": 0.9847196544128312,
+        "Villarrica": 0.0016652021409119136
+      },
+      "location_entropy": 0.09100722875769104
+    },
+    "NODE_0000021": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.9991522568293703
+      },
+      "location_entropy": 0.007968915200849868
+    },
+    "NODE_0000022": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.9999601993883074
+      },
+      "location_entropy": 0.0005183542827045496
+    },
+    "NODE_0000023": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.9999816085122727
+      },
+      "location_entropy": 0.0002557894589383124
+    },
+    "NODE_0000024": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Altos de Lircay": 0.10763211907954857,
+        "Nahuelbuta": 0.873658017735353,
+        "Puyehue": 0.001286674297750627,
+        "Villarrica": 0.013987169741169167
+      },
+      "location_entropy": 0.4516498568701571
+    },
+    "NODE_0000025": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Altos de Lircay": 0.07342790058544275,
+        "Nahuelbuta": 0.8779723155854587,
+        "Puyehue": 0.0026441902091466868,
+        "Villarrica": 0.03879425045985017
+      },
+      "location_entropy": 0.4956780303539329
+    },
+    "NODE_0000026": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Altos de Lircay": 0.040220833550636666,
+        "Nahuelbuta": 0.8847794844065969,
+        "Puyehue": 0.002802122527232277,
+        "Villarrica": 0.06545387495766516
+      },
+      "location_entropy": 0.4779066122670522
+    },
+    "NODE_0000027": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9779174026543273,
+        "Nahuelbuta": 0.02149029259178941
+      },
+      "location_entropy": 0.1099049472740987
+    },
+    "NODE_0000028": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9940332601252153,
+        "Nahuelbuta": 0.005941940242967243
+      },
+      "location_entropy": 0.036717554115193736
+    },
+    "NODE_0000029": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9873759189562913,
+        "Nahuelbuta": 0.012273936082312907
+      },
+      "location_entropy": 0.07005828775569803
+    },
+    "NODE_0000030": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9999181017231465
+      },
+      "location_entropy": 0.0008718762515997319
+    },
+    "NODE_0000031": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9999950681731004
+      },
+      "location_entropy": 7.083532588001982e-05
+    },
+    "NODE_0000032": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9999949633139202
+      },
+      "location_entropy": 7.323864020559658e-05
+    },
+    "NODE_0000033": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9999974123157833
+      },
+      "location_entropy": 3.931675543365037e-05
+    },
+    "NODE_0000034": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9999969217905201
+      },
+      "location_entropy": 4.6255737247271285e-05
+    },
+    "NODE_0000035": {
+      "location": "Altos de Lircay",
+      "location_confidence": {
+        "Altos de Lircay": 0.9999969453801936
+      },
+      "location_entropy": 4.5933023387338163e-05
+    },
+    "NODE_0000036": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Nahuelbuta": 0.2867754049928398,
+        "Torres del Paine": 0.3440849933114805,
+        "V Osorno": 0.18366003825113011,
+        "Villarrica": 0.0667411143563427
+      },
+      "location_entropy": 1.6587960269976878
+    },
+    "NODE_0000037": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Nahuelbuta": 0.2621656422013226,
+        "Torres del Paine": 0.28357282896893654,
+        "V Osorno": 0.16764728277442947,
+        "Villarrica": 0.0720593663729588
+      },
+      "location_entropy": 1.8980744861267365
+    },
+    "NODE_0000038": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Nahuelbuta": 0.1894744108903188,
+        "Torres del Paine": 0.40999735037097074,
+        "V Osorno": 0.21598757347967357,
+        "Villarrica": 0.07284093951273171
+      },
+      "location_entropy": 1.6116659549606382
+    },
+    "NODE_0000039": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.06105395573768019,
+        "Nahuelbuta": 0.11769202674756685,
+        "Torres del Paine": 0.570563874172352,
+        "V Osorno": 0.12927043516228595
+      },
+      "location_entropy": 1.430810707816616
+    },
+    "NODE_0000040": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.06549091824254011,
+        "Nahuelbuta": 0.12338187178885236,
+        "Torres del Paine": 0.5290884738288826,
+        "V Osorno": 0.12740297786103533
+      },
+      "location_entropy": 1.5646471896093994
+    },
+    "NODE_0000041": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.07044661624907651,
+        "Nahuelbuta": 0.1295746664582734,
+        "Torres del Paine": 0.4821910900136989,
+        "V Osorno": 0.12517070711901868
+      },
+      "location_entropy": 1.6973164586150804
+    },
+    "NODE_0000042": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.08307849767647622,
+        "Karukinka": 0.06079939761435253,
+        "Nahuelbuta": 0.01947075835517831,
+        "Torres del Paine": 0.8021834031989501
+      },
+      "location_entropy": 0.7911931101640788
+    },
+    "NODE_0000043": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.0049043150267562945,
+        "Karukinka": 0.0038585050577629077,
+        "Nahuelbuta": 0.0017391871294577198,
+        "Torres del Paine": 0.9868373602452472
+      },
+      "location_entropy": 0.09148503827308715
+    },
+    "NODE_0000044": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.1388801100806853,
+        "Karukinka": 0.09891645808891257,
+        "Magallanes": 0.0067313542613318695,
+        "Torres del Paine": 0.7410041782993382
+      },
+      "location_entropy": 0.8396846953517225
+    },
+    "NODE_0000045": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.8607643339255882,
+        "Karukinka": 0.07435177296716845,
+        "Torres del Paine": 0.06228437224023352
+      },
+      "location_entropy": 0.515282992089106
+    },
+    "NODE_0000046": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.8698541686898585,
+        "Karukinka": 0.09258627102618598,
+        "Torres del Paine": 0.03482834199776635
+      },
+      "location_entropy": 0.4796153864640976
+    },
+    "NODE_0000047": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.9910041733737879,
+        "Karukinka": 0.006317973648339383,
+        "Torres del Paine": 0.002066495424935765
+      },
+      "location_entropy": 0.05937851438562081
+    },
+    "NODE_0000048": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Coyhaique": 0.007955418794778254,
+        "Karukinka": 0.9910704996998505
+      },
+      "location_entropy": 0.05574103018576132
+    },
+    "NODE_0000049": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.9978518096595081,
+        "Karukinka": 0.001208662393711682
+      },
+      "location_entropy": 0.017415958905821174
+    },
+    "NODE_0000050": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.9998152622284441
+      },
+      "location_entropy": 0.002072074434580736
+    },
+    "NODE_0000051": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.9999395273264372
+      },
+      "location_entropy": 0.0007612094175317308
+    },
+    "NODE_0000052": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.9997613788993305
+      },
+      "location_entropy": 0.0025148961051391656
+    },
+    "NODE_0000053": {
+      "location": "Coyhaique",
+      "location_confidence": {
+        "Coyhaique": 0.9997898835270835
+      },
+      "location_entropy": 0.002368524507444128
+    },
+    "NODE_0000054": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.0692635381533486,
+        "Karukinka": 0.15128114946274568,
+        "Magallanes": 0.018848192264524076,
+        "Torres del Paine": 0.7520366183507251
+      },
+      "location_entropy": 0.8133016674568561
+    },
+    "NODE_0000055": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Coyhaique": 0.010281918677125891,
+        "Karukinka": 0.9032636525675465,
+        "Magallanes": 0.0019311349606453028,
+        "Torres del Paine": 0.07995306340015469
+      },
+      "location_entropy": 0.3851696536260764
+    },
+    "NODE_0000056": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.015281752181789003,
+        "Karukinka": 0.033045721466984965,
+        "Magallanes": 0.09100873976790487,
+        "Torres del Paine": 0.8560309884107112
+      },
+      "location_entropy": 0.5600174365546015
+    },
+    "NODE_0000057": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 0.9694034406124111,
+        "Torres del Paine": 0.0283945903160799
+      },
+      "location_entropy": 0.1484477245527149
+    },
+    "NODE_0000058": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 0.9996301434250221
+      },
+      "location_entropy": 0.003449529750436878
+    },
+    "NODE_0000059": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 0.9999398893083232
+      },
+      "location_entropy": 0.0007336341401077166
+    },
+    "NODE_0000060": {
+      "location": "Magallanes",
+      "location_confidence": {
+        "Magallanes": 0.9999401244016042
+      },
+      "location_entropy": 0.0007311677565712243
+    },
+    "NODE_0000061": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Magallanes": 0.0014588544471522457,
+        "Torres del Paine": 0.9975440596591462
+      },
+      "location_entropy": 0.02003185796577882
+    },
+    "NODE_0000062": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 0.9997094366597085
+      },
+      "location_entropy": 0.003163481745606548
+    },
+    "NODE_0000063": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 0.9997538248362243
+      },
+      "location_entropy": 0.0026671459875078
+    },
+    "NODE_0000064": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 0.9999587033457987
+      },
+      "location_entropy": 0.0005385865284875051
+    },
+    "NODE_0000065": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 0.9999896166435015
+      },
+      "location_entropy": 0.00014965947488839888
+    },
+    "NODE_0000066": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 0.9999949104638763
+      },
+      "location_entropy": 7.696741214365095e-05
+    },
+    "NODE_0000067": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Torres del Paine": 0.9999949979752365
+      },
+      "location_entropy": 7.573767065954771e-05
+    },
+    "NODE_0000068": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "Nahuelbuta": 0.09091309619724107,
+        "Torres del Paine": 0.15365774823431977,
+        "V Osorno": 0.5234115758276027,
+        "Villarrica": 0.15181607017661047
+      },
+      "location_entropy": 1.4599716259787217
+    },
+    "NODE_0000069": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "Nahuelbuta": 0.0036865550536526533,
+        "Torres del Paine": 0.0053352694225385425,
+        "V Osorno": 0.980904649393364,
+        "Villarrica": 0.006841306090992259
+      },
+      "location_entropy": 0.12545017083591034
+    },
+    "NODE_0000070": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "V Osorno": 0.9999259496011558
+      },
+      "location_entropy": 0.0009016941347155677
+    },
+    "NODE_0000071": {
+      "location": "V Osorno",
+      "location_confidence": {
+        "V Osorno": 0.999995247413341
+      },
+      "location_entropy": 7.18336534733633e-05
+    },
+    "NODE_0000072": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Nahuelbuta": 0.0240712523806897,
+        "Puyehue": 0.06307516218647574,
+        "V Osorno": 0.07141403292356019,
+        "Villarrica": 0.7590966763561772
+      },
+      "location_entropy": 0.9955696370331166
+    },
+    "NODE_0000073": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Coyhaique": 0.05957552162766444,
+        "Karukinka": 0.08505541270961733,
+        "Puyehue": 0.2629469862874879,
+        "Villarrica": 0.5206262351098168
+      },
+      "location_entropy": 1.3499904194485526
+    },
+    "NODE_0000074": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Coyhaique": 0.25710820871431966,
+        "Karukinka": 0.36886613335775137,
+        "Puyehue": 0.10306777338714822,
+        "Villarrica": 0.21612454046619517
+      },
+      "location_entropy": 1.5293507379805824
+    },
+    "NODE_0000075": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Coyhaique": 0.0010530170965275957,
+        "Karukinka": 0.9977818735424085
+      },
+      "location_entropy": 0.019007849123806743
+    },
+    "NODE_0000076": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 0.9999690681896585
+      },
+      "location_entropy": 0.000398145152766966
+    },
+    "NODE_0000077": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 0.999993638274647
+      },
+      "location_entropy": 9.433210233470843e-05
+    },
+    "NODE_0000078": {
+      "location": "Karukinka",
+      "location_confidence": {
+        "Karukinka": 0.999993988462987
+      },
+      "location_entropy": 8.959971335427912e-05
+    },
+    "NODE_0000079": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Choshuenco": 0.06052253532615501,
+        "Karukinka": 0.011646308706050002,
+        "Puyehue": 0.40269505621638857,
+        "Villarrica": 0.5098292285682378
+      },
+      "location_entropy": 1.0155417760380014
+    },
+    "NODE_0000080": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 0.9939314982883094,
+        "Villarrica": 0.0052694949352998215
+      },
+      "location_entropy": 0.040448424925710796
+    },
+    "NODE_0000081": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 0.99990029460263
+      },
+      "location_entropy": 0.001084296905068118
+    },
+    "NODE_0000082": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Choshuenco": 0.1239858074087747,
+        "Karukinka": 0.0027057191778572837,
+        "Puyehue": 0.28513892054758644,
+        "Villarrica": 0.5824767269413063
+      },
+      "location_entropy": 0.9851527064049528
+    },
+    "NODE_0000083": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Choshuenco": 0.007279432259576121,
+        "Puyehue": 0.19299962338183393,
+        "V Osorno": 0.0031075289225082647,
+        "Villarrica": 0.7960105616621893
+      },
+      "location_entropy": 0.5582522008439567
+    },
+    "NODE_0000084": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Choshuenco": 0.0031525051428416117,
+        "Puyehue": 0.07538978856691333,
+        "V Osorno": 0.04213705074996082,
+        "Villarrica": 0.8766060702233532
+      },
+      "location_entropy": 0.48200405233079446
+    },
+    "NODE_0000085": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Choshuenco": 0.0021512793513954027,
+        "Puyehue": 0.20405547247658082,
+        "Villarrica": 0.7925772535913532
+      },
+      "location_entropy": 0.5313499633941079
+    },
+    "NODE_0000086": {
+      "location": "Puyehue",
+      "location_confidence": {
+        "Puyehue": 0.9623084351342632,
+        "Villarrica": 0.036679314990088224
+      },
+      "location_entropy": 0.1670009087130092
+    },
+    "NODE_0000087": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Puyehue": 0.00294146769134277,
+        "Villarrica": 0.9969312545730137
+      },
+      "location_entropy": 0.021560966773677415
+    },
+    "NODE_0000088": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.999946388088717
+      },
+      "location_entropy": 0.0006216682060756567
+    },
+    "NODE_0000089": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.9999456395195493
+      },
+      "location_entropy": 0.0006294918179041364
+    },
+    "NODE_0000090": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.9999891885344957
+      },
+      "location_entropy": 0.00015369729069676785
+    },
+    "NODE_0000091": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Villarrica": 0.9999899357299753
+      },
+      "location_entropy": 0.0001441987518533624
+    },
+    "NODE_0000092": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.841008677663301,
+        "Puyehue": 0.13103423300504735,
+        "Villarrica": 0.02738162566832498
+      },
+      "location_entropy": 0.5157582623396101
+    },
+    "NODE_0000093": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.8419977490951568,
+        "Puyehue": 0.14336697641034177,
+        "Villarrica": 0.013920880311587334
+      },
+      "location_entropy": 0.48922879525076934
+    },
+    "NODE_0000094": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9977490795072562,
+        "Puyehue": 0.001434623686204749
+      },
+      "location_entropy": 0.01766022132256001
+    },
+    "NODE_0000095": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9992551445003973
+      },
+      "location_entropy": 0.006500886030353649
+    },
+    "NODE_0000096": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999855048277501
+      },
+      "location_entropy": 0.00019855119726586612
+    },
+    "NODE_0000097": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9932419222814648,
+        "Villarrica": 0.006363765271534929
+      },
+      "location_entropy": 0.042657239244937355
+    },
+    "NODE_0000098": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Choshuenco": 0.4386035785708186,
+        "Nahuelbuta": 0.005010396846381087,
+        "Puyehue": 0.007046225049560279,
+        "Villarrica": 0.5376566859237133
+      },
+      "location_entropy": 0.8288954056213788
+    },
+    "NODE_0000099": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999579478118016
+      },
+      "location_entropy": 0.0005093546413708213
+    },
+    "NODE_0000100": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999951051398469
+      },
+      "location_entropy": 7.297150283150833e-05
+    },
+    "NODE_0000101": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999956028583121
+      },
+      "location_entropy": 6.623433106964983e-05
+    },
+    "NODE_0000102": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999955597784771
+      },
+      "location_entropy": 6.682975974654974e-05
+    },
+    "NODE_0000103": {
+      "location": "Choshuenco",
+      "location_confidence": {
+        "Choshuenco": 0.9999956077998352
+      },
+      "location_entropy": 6.616736180377854e-05
+    },
+    "P1C1": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Nahuelbuta": 0.2201032044758282,
+        "Torres del Paine": 0.18753733393539912,
+        "V Osorno": 0.13906611029437235,
+        "Villarrica": 0.08041284685559356
+      },
+      "location_entropy": 2.1515976935744114
+    },
+    "yHAB47": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09375509913108321,
+        "Nahuelbuta": 0.22006672613704728,
+        "Torres del Paine": 0.10416583746044149,
+        "V Osorno": 0.10253912775807651
+      },
+      "location_entropy": 2.2324126353342306
+    },
+    "yHCT104": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Coyhaique": 0.10069422680986266,
+        "Karukinka": 0.1063460722399599,
+        "Nahuelbuta": 0.16056665174221404,
+        "Puyehue": 0.11798817109988796
+      },
+      "location_entropy": 2.2755642799962295
+    },
+    "yHCT105": {
+      "location": "Villarrica",
+      "location_confidence": {
+        "Choshuenco": 0.4176974186367548,
+        "Nahuelbuta": 0.01833256480523239,
+        "Puyehue": 0.01897904363057378,
+        "Villarrica": 0.4965261278200425
+      },
+      "location_entropy": 1.092808722991813
+    },
+    "yHCT107": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Altos de Lircay": 0.0812061017968897,
+        "Nahuelbuta": 0.718953315529899,
+        "Puyehue": 0.02738734836668007,
+        "Villarrica": 0.053089616551319774
+      },
+      "location_entropy": 1.1623611775159417
+    },
+    "yHCT114": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Choshuenco": 0.09417259925975649,
+        "Karukinka": 0.09965750978004864,
+        "Nahuelbuta": 0.15815338350071065,
+        "Puyehue": 0.15107508774151845
+      },
+      "location_entropy": 2.2629371718784608
+    },
+    "yHCT63": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.083393968242585,
+        "Nahuelbuta": 0.14473874167370682,
+        "Torres del Paine": 0.35576458683483164,
+        "V Osorno": 0.11835827827153973
+      },
+      "location_entropy": 1.9845034675011664
+    },
+    "yHCT72": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Choshuenco": 0.09415770856999618,
+        "Karukinka": 0.09961863433246158,
+        "Nahuelbuta": 0.15813466853266087,
+        "Puyehue": 0.15128254166552396
+      },
+      "location_entropy": 2.262829829150781
+    },
+    "yHCT81": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09375509913108321,
+        "Nahuelbuta": 0.22006672613704728,
+        "Torres del Paine": 0.10416583746044149,
+        "V Osorno": 0.10253912775807651
+      },
+      "location_entropy": 2.2324126353342306
+    },
+    "yHCT94": {
+      "location": "Torres del Paine",
+      "location_confidence": {
+        "Coyhaique": 0.08439133394773046,
+        "Nahuelbuta": 0.1458304517807874,
+        "Torres del Paine": 0.3457081427017232,
+        "V Osorno": 0.11775492966887205
+      },
+      "location_entropy": 2.003464953716353
+    },
+    "yHCT96": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Coyhaique": 0.10149985246217876,
+        "Karukinka": 0.10716108978589227,
+        "Nahuelbuta": 0.16071759523083465,
+        "Puyehue": 0.11441724920604272
+      },
+      "location_entropy": 2.276354280457753
+    },
+    "yHCT99": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09895822412661176,
+        "Nahuelbuta": 0.1578099871708199,
+        "Puyehue": 0.15482867288370397,
+        "Villarrica": 0.09413855117877899
+      },
+      "location_entropy": 2.2609443373435867
+    },
+    "yHDPN422": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09970556175106803,
+        "Nahuelbuta": 0.18125595802885136,
+        "Puyehue": 0.11144279679026463,
+        "V Osorno": 0.09933040006519242
+      },
+      "location_entropy": 2.264247561110322
+    },
+    "yHDPN423": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09970556175106803,
+        "Nahuelbuta": 0.18125595802885136,
+        "Puyehue": 0.11144279679026463,
+        "V Osorno": 0.09933040006519242
+      },
+      "location_entropy": 2.264247561110322
+    },
+    "yHDPN424": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09885031489370884,
+        "Nahuelbuta": 0.18288187881857218,
+        "Puyehue": 0.11221099512511104,
+        "V Osorno": 0.09975770399601332
+      },
+      "location_entropy": 2.2626161309715824
+    },
+    "yHKS210": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09970556175106803,
+        "Nahuelbuta": 0.18125595802885136,
+        "Puyehue": 0.11144279679026463,
+        "V Osorno": 0.09933040006519242
+      },
+      "location_entropy": 2.264247561110322
+    },
+    "yHKS211": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09970556175106803,
+        "Nahuelbuta": 0.18125595802885136,
+        "Puyehue": 0.11144279679026463,
+        "V Osorno": 0.09933040006519242
+      },
+      "location_entropy": 2.264247561110322
+    },
+    "yHKS212": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09885031489370884,
+        "Nahuelbuta": 0.18288187881857218,
+        "Puyehue": 0.11221099512511104,
+        "V Osorno": 0.09975770399601332
+      },
+      "location_entropy": 2.2626161309715824
+    },
+    "yHKS509": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.08233325095175921,
+        "Nahuelbuta": 0.21296404699635502,
+        "Torres del Paine": 0.17235837636916423,
+        "V Osorno": 0.13400789358614842
+      },
+      "location_entropy": 2.1799188723044223
+    },
+    "yHRVM107": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09795947910052089,
+        "Nahuelbuta": 0.20439115899195465,
+        "Torres del Paine": 0.09736254669319885,
+        "V Osorno": 0.10054649855517726
+      },
+      "location_entropy": 2.2487067084440455
+    },
+    "yHRVM108": {
+      "location": "Nahuelbuta",
+      "location_confidence": {
+        "Karukinka": 0.09795947910052089,
+        "Nahuelbuta": 0.20439115899195465,
+        "Torres del Paine": 0.09736254669319885,
+        "V Osorno": 0.10054649855517726
+      },
+      "location_entropy": 2.2487067084440455
+    }
+  }
+}
