@@ -27,7 +27,7 @@ def plot_bargraph(df, loc):
     #ax.set_xticklabels(["S. eubayanus", "S. uvarum"], style='italic')
     ax.set_ylabel("Number of Samples")
     ax.set_yticks(np.arange(0, max(df['Samples']) + 1, step=1))
-    png = '/Users/pamelacamejo/Documents/IBIO/Francisco Cubillos/Website/plot_{}.png'.format(loc)
+    png = 'plot_{}.png'.format(loc)
     fig.savefig(png, dpi=resolution)
 
 def add_loc_info(loc_info, loc, map):
@@ -44,7 +44,7 @@ def add_loc_info(loc_info, loc, map):
     table_species.to_html(buf=str_io, classes='table table-striped', border=0.5, col_space=100, justify="center", escape=False, index=False)
     html_str = str_io.getvalue().replace('table border="0.5"', 'table border="0.5" align="center"')
     html_str = html_str.replace('<td>','<td style = "text-align:center">')
-    encoded = base64.b64encode(open('/Users/pamelacamejo/Documents/IBIO/Francisco Cubillos/Website/plot_{}.png'.format(loc), 'rb').read()).decode()
+    encoded = base64.b64encode(open('plot_{}.png'.format(loc), 'rb').read()).decode()
 
     html = f'''<TABLE BORDER=0> \
         <TR>
