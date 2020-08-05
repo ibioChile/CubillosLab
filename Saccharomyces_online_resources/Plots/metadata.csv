@@ -1,0 +1,88 @@
+strain,species,clade,accession,country,location,CO2_lost_gL
+CL204.3,S. eubayanus,PB3,SAMN11565824,Chile,Villarrica,18.9
+CL210.1,S. eubayanus,ADM,SAMN11565791,Chile,Villarrica,20.7
+CL211.3,S. eubayanus,PB3,SAMN11565792,Chile,Villarrica,13.3
+CL212.2,S. eubayanus,PB3,SAMN11565819,Chile,Villarrica,19
+CL215.1,S. eubayanus,PB3,SAMN11565767,Chile,Villarrica,21.3
+CL216.1,S. eubayanus,PB3,SAMN11565818,Chile,Villarrica,23.4
+CL218.1,S. eubayanus,PB3,SAMN11565821,Chile,Villarrica,22.6
+CL220.3,S. eubayanus,PB3,SAMN11565814,Chile,Villarrica,12.4
+CL221.1,S. eubayanus,PB3,SAMN11565808,Chile,Villarrica,17.3
+CL248.1,S. eubayanus,PB2,SAMN11565774,Chile,Villarrica,28.1
+CL444.2,S. eubayanus,PB1,SAMN11565789,Chile,Coyhaique,18.6
+CL446.2,S. eubayanus,PB1,SAMN11565750,Chile,Coyhaique,19.7
+CL447.3,S. eubayanus,PB1,SAMN11565746,Chile,Coyhaique,11.1
+CL448.1,S. eubayanus,PB1,SAMN11565749,Chile,Coyhaique,21.6
+CL449.1,S. eubayanus,PB1,SAMN11565745,Chile,Coyhaique,15.1
+CL450.1,S. eubayanus,PB1,SAMN11565754,Chile,Coyhaique,26.9
+CL451.4,S. eubayanus,ADM,SAMN11565747,Chile,Coyhaique,18.8
+CL467.2,S. eubayanus,PB1,SAMN11565776,Chile,Coyhaique,18
+CL471.2,S. eubayanus,PB1,SAMN11565771,Chile,Coyhaique,20.9
+CL601.1,S. eubayanus,PB3,SAMN11565781,Chile,Puyehue,20.4
+CL604.1,S. eubayanus,PB3,SAMN11565764,Chile,Puyehue,18.4
+CL605.1,S. eubayanus,PB1,SAMN11565784,Chile,Osorno Volcano,12
+CL606.1,S. eubayanus,PB1,SAMN11565787,Chile,Osorno Volcano,13.11
+CL607.1,S. eubayanus,PB3,SAMN11565768,Chile,Puyehue,18.5
+CL608.1,S. eubayanus,PB3,SAMN11565796,Chile,Puyehue,16.7
+CL609.1,S. eubayanus,ADM,SAMN11565756,Chile,Puyehue,25.4
+CL610.1,S. eubayanus,PB3,SAMN11565759,Chile,Puyehue,15.3
+CL611.1,S. eubayanus,PB3,SAMN11565810,Chile,Puyehue,17.1
+CL619.1,S. eubayanus,PB1,SAMN11565758,Chile,Osorno Volcano,11.7
+CL620.1,S. eubayanus,PB3,SAMN11565793,Chile,Osorno Volcano,23.6
+CL621.1,S. eubayanus,PB1,SAMN11565743,Chile,Osorno Volcano,18.55
+CL701.1,S. eubayanus,PB2,SAMN11565761,Chile,Altos de Lircay,26.4
+CL702.1,S. eubayanus,PB2,SAMN11565766,Chile,Altos de Lircay,28.43
+CL703.2,S. eubayanus,PB2,SAMN11565773,Chile,Altos de Lircay,23
+CL704.2,S. eubayanus,PB2,SAMN11565769,Chile,Altos de Lircay,23.8
+CL705.1,S. eubayanus,PB2,SAMN11565762,Chile,Altos de Lircay,24.3
+CL706.2,S. eubayanus,PB2,SAMN11565780,Chile,Altos de Lircay,22.8
+CL710.1,S. eubayanus,PB2,SAMN11565782,Chile,Altos de Lircay,30.9
+CL711.2,S. eubayanus,PB2,SAMN11565763,Chile,Altos de Lircay,21.28
+CL715.1,S. eubayanus,PB2,SAMN11565760,Chile,Altos de Lircay,30
+CL801.1,S. eubayanus,PB1,SAMN11565757,Chile,Karukinka,15.97
+CL803.1,S. eubayanus,ADM,SAMN11565805,Chile,Karukinka,14.3
+CL804.1,S. eubayanus,ADM,SAMN11565765,Chile,Karukinka,20.3
+CL807.1,S. eubayanus,ADM,SAMN11565777,Chile,Karukinka,12.9
+CL810.1,S. eubayanus,ADM,SAMN11565778,Chile,Karukinka,17.1
+CL812.1,S. eubayanus,PB1,SAMN11565772,Chile,Karukinka,20.46
+CL813.1,S. eubayanus,PB1,SAMN11565801,Chile,Magallanes,14.3
+CL814.1,S. eubayanus,PB1,SAMN11565811,Chile,Magallanes,10.88
+CL815.1,S. eubayanus,PB1,SAMN11565799,Chile,Magallanes,10.4
+CL816.1,S. eubayanus,PB1,SAMN11565748,Chile,Karukinka,23.2
+CL817.1,S. eubayanus,PB1,SAMN11565812,Chile,Magallanes,19.9
+CL821.1,S. eubayanus,ADM,SAMN11565803,Chile,Karukinka,14.8
+CL824.1,S. eubayanus,PB1,SAMN11565753,Chile,Karukinka,14
+CL835.1,S. eubayanus,PB1,SAMN11565744,Chile,Magallanes,13.1
+CL902.1,S. eubayanus,PB3,SAMN11565822,Chile,Choshuenco,12.8
+CL903.1,S. eubayanus,PB3,SAMN11565820,Chile,Choshuenco,20.08
+CL904.1,S. eubayanus,PB3,SAMN11565823,Chile,Choshuenco,19
+CL905.1,S. eubayanus,PB3,SAMN11565806,Chile,Choshuenco,19.6
+CL906.1,S. eubayanus,PB3,SAMN11565817,Chile,Choshuenco,16.9
+CL907.1,S. eubayanus,PB3,SAMN11565815,Chile,Choshuenco,16.5
+CL909.1,S. eubayanus,PB3,SAMN11565813,Chile,Choshuenco,10.3
+CL910.1,S. eubayanus,PB2,SAMN11565807,Chile,Nahuelbuta,14.8
+CL915.1,S. eubayanus,PB2,SAMN11565809,Chile,Nahuelbuta,16
+CL916.1,S. eubayanus,PB3,SAMN11565794,Chile,Choshuenco,10.9
+CL1001.1,S. eubayanus,PB1,SAMN11565788,Chile,Paine Towers,13.4
+CL1002.1,S. eubayanus,PB1,SAMN11565752,Chile,Paine Towers,6.19
+CL1003.1,S. eubayanus,PB1,SAMN11565751,Chile,Paine Towers,18.63
+CL1004.1,S. eubayanus,PB1,SAMN11565770,Chile,Paine Towers,14.7
+CL1005.1,S. eubayanus,PB1,SAMN11565800,Chile,Paine Towers,21.9
+CL1006.1,S. eubayanus,PB1,SAMN11565783,Chile,Paine Towers,15.6
+CL1007.1,S. eubayanus,PB1,SAMN11565755,Chile,Paine Towers,23.4
+CL1008.1,S. eubayanus,PB1,SAMN11565785,Chile,Paine Towers,19.3
+CL1009.1,S. eubayanus,PB1,SAMN11565786,Chile,Paine Towers,15.2
+CL1010.1,S. eubayanus,PB1,SAMN11565775,Chile,Paine Towers,22.8
+CL1101.1,S. eubayanus,PB2,SAMN11565816,Chile,Nahuelbuta,24.1
+CL1104.1,S. eubayanus,PB3,SAMN11565802,Chile,Choshuenco,22.8
+CL1106.1,S. eubayanus,ADM,SAMN11565779,Chile,Nahuelbuta,22.93
+CL1108.1,S. eubayanus,PB2,SAMN11565798,Chile,Nahuelbuta,21.8
+CL1109.1,S. eubayanus,PB2,SAMN11565804,Chile,Nahuelbuta,20.4
+CL1110.1,S. eubayanus,PB3,SAMN11565795,Chile,Choshuenco,20.3
+CL1111.1,S. eubayanus,PB2,SAMN11565797,Chile,Nahuelbuta,15.8
+CL1112.1,S. eubayanus,ADM,SAMN11565790,Chile,Nahuelbuta,19.4
+yHKS509,S. eubayanus,,SAMN04579097,USA,Monroe-WA,14.9
+yHRVM107,S. eubayanus,,SAMN04579098,USA,Durham-NC,2.8
+yHRVM108,S. eubayanus,,SAMN14512955,USA,Durham-NC,2.7
+yHKS211,S. eubayanus,,SAMN04146729,USA,Sheboygan-WI,21.6
+yHKS212,S. eubayanus,,SAMN04146730,USA,Sheboygan-WI,21.7
