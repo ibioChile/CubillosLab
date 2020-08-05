@@ -1,0 +1,2894 @@
+{
+  "meta": {
+    "build_url": "https://github.com/ibioChile/CubillosLab/tree/master/Saccharomyces_online_resources/Phyogenetic_Tree",
+    "colorings": [
+      {
+        "key": "species",
+        "title": "Species",
+        "type": "categorical"
+      },
+      {
+        "key": "clade",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "location",
+        "scale": [
+          [
+            "Choshuenco",
+            "#511EA8"
+          ],
+          [
+            "Osorno Volcano",
+            "#4928B4"
+          ],
+          [
+            "Puyehue",
+            "#4334BF"
+          ],
+          [
+            "Villarrica",
+            "#4041C7"
+          ],
+          [
+            "Nahuelbuta",
+            "#3F50CC"
+          ],
+          [
+            "Altos de Lircay",
+            "#3F5ED0"
+          ],
+          [
+            "Magallanes",
+            "#416CCE"
+          ],
+          [
+            "Karukinka",
+            "#4379CD"
+          ],
+          [
+            "Coyhaique",
+            "#4784C7"
+          ],
+          [
+            "Paine Towers",
+            "#4B8FC1"
+          ]
+        ],
+        "title": "Location",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [
+      "country",
+      "clade",
+      "location"
+    ],
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Altos de Lircay": {
+            "latitude": -35.605572,
+            "longitude": -70.966332
+          },
+          "Choshuenco": {
+            "latitude": -39.833274,
+            "longitude": -72.082202
+          },
+          "Coyhaique": {
+            "latitude": -45.554026,
+            "longitude": -72.070972
+          },
+          "Karukinka": {
+            "latitude": -54.10117,
+            "longitude": -69.356707
+          },
+          "Magallanes": {
+            "latitude": -53.1586,
+            "longitude": -71.173362
+          },
+          "Nahuelbuta": {
+            "latitude": -37.792657,
+            "longitude": -72.998177
+          },
+          "Osorno Volcano": {
+            "latitude": -41.087108,
+            "longitude": -72.488971
+          },
+          "Paine Towers": {
+            "latitude": -50.942197,
+            "longitude": -73.406869
+          },
+          "Puyehue": {
+            "latitude": -39.662728,
+            "longitude": -72.388317
+          },
+          "Villarrica": {
+            "latitude": -39.281202,
+            "longitude": -72.232914
+          }
+        },
+        "key": "location"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Francisco Cubillos",
+        "url": "https://www.ibio.cl/molecular-genetics-lab/"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ],
+    "title": "S. eubayanus phylogenetic tree",
+    "updated": "2020-07-21"
+  },
+  "tree": {
+    "branch_attrs": {},
+    "children": [
+      {
+        "branch_attrs": {},
+        "name": "CL1105.1",
+        "node_attrs": {
+          "accession": "SAMN11565825",
+          "clade": {
+            "value": "-"
+          },
+          "country": {
+            "value": "Chile"
+          },
+          "div": 0.9144727995,
+          "location": {
+            "value": "Nahuelbuta"
+          },
+          "species": {
+            "value": "S. uvarum"
+          }
+        }
+      },
+      {
+        "branch_attrs": {},
+        "children": [
+          {
+            "branch_attrs": {},
+            "children": [
+              {
+                "branch_attrs": {},
+                "name": "CL609.1",
+                "node_attrs": {
+                  "accession": "SAMN11565756",
+                  "clade": {
+                    "value": "ADM"
+                  },
+                  "country": {
+                    "value": "Chile"
+                  },
+                  "div": 0.0416636879,
+                  "location": {
+                    "value": "Puyehue"
+                  },
+                  "species": {
+                    "value": "S. eubayanus"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "yHCT104",
+                        "node_attrs": {
+                          "div": 0.06396753129999999
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "name": "yHCT96",
+                        "node_attrs": {
+                          "div": 0.0670226832
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "div": 0.059757632399999996
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "yHCT99",
+                        "node_attrs": {
+                          "div": 0.0495544255
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "yHCT114",
+                            "node_attrs": {
+                              "div": 0.0504401792
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "yHCT72",
+                            "node_attrs": {
+                              "div": 0.0503894725
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000006",
+                        "node_attrs": {
+                          "div": 0.046037833699999996
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "div": 0.0446452619
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 0.0402318852
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 0.0290098976
+            }
+          },
+          {
+            "branch_attrs": {},
+            "children": [
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "name": "yHDPN424",
+                    "node_attrs": {
+                      "div": 0.020938548699999997
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "yHDPN422",
+                        "node_attrs": {
+                          "div": 0.0209398759
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "name": "yHDPN423",
+                        "node_attrs": {
+                          "div": 0.0209420894
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000009",
+                    "node_attrs": {
+                      "div": 0.0209365446
+                    }
+                  }
+                ],
+                "name": "NODE_0000008",
+                "node_attrs": {
+                  "div": 0.020932973799999997
+                }
+              },
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "name": "yHKS212",
+                    "node_attrs": {
+                      "div": 0.020975034599999998
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "yHKS210",
+                        "node_attrs": {
+                          "div": 0.0209504425
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "name": "yHKS211",
+                        "node_attrs": {
+                          "div": 0.020954546299999998
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000011",
+                    "node_attrs": {
+                      "div": 0.0209500922
+                    }
+                  }
+                ],
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "div": 0.020934617399999998
+                }
+              }
+            ],
+            "name": "NODE_0000007",
+            "node_attrs": {
+              "div": 0.020918832499999998
+            }
+          }
+        ],
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.0096972958
+        }
+      },
+      {
+        "branch_attrs": {},
+        "children": [
+          {
+            "branch_attrs": {},
+            "children": [
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "yHRVM107",
+                        "node_attrs": {
+                          "div": 0.030334558999999997
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "name": "yHRVM108",
+                        "node_attrs": {
+                          "div": 0.030333567399999997
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000015",
+                    "node_attrs": {
+                      "div": 0.030331227599999996
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "CDFM21L",
+                        "node_attrs": {
+                          "div": 0.0288423019
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "yHAB47",
+                            "node_attrs": {
+                              "div": 0.027129867199999998
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "yHCT81",
+                            "node_attrs": {
+                              "div": 0.027081247899999997
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000017",
+                        "node_attrs": {
+                          "div": 0.026530387199999998
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "div": 0.023000628
+                    }
+                  }
+                ],
+                "name": "NODE_0000014",
+                "node_attrs": {
+                  "div": 0.0199888926
+                }
+              },
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "name": "CL1112.1",
+                    "node_attrs": {
+                      "accession": "SAMN11565790",
+                      "clade": {
+                        "value": "ADM"
+                      },
+                      "country": {
+                        "value": "Chile"
+                      },
+                      "div": 0.0167505123,
+                      "location": {
+                        "value": "Nahuelbuta"
+                      },
+                      "species": {
+                        "value": "S. eubayanus"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "CL1106.1",
+                        "node_attrs": {
+                          "accession": "SAMN11565779",
+                          "clade": {
+                            "value": "ADM"
+                          },
+                          "country": {
+                            "value": "Chile"
+                          },
+                          "div": 0.0205500175,
+                          "location": {
+                            "value": "Nahuelbuta"
+                          },
+                          "species": {
+                            "value": "S. eubayanus"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "CL1111.1",
+                                "node_attrs": {
+                                  "accession": "SAMN11565797",
+                                  "clade": {
+                                    "value": "PB2"
+                                  },
+                                  "country": {
+                                    "value": "Chile"
+                                  },
+                                  "div": 0.0242528783,
+                                  "location": {
+                                    "value": "Nahuelbuta"
+                                  },
+                                  "species": {
+                                    "value": "S. eubayanus"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "CL1108.1",
+                                    "node_attrs": {
+                                      "accession": "SAMN11565798",
+                                      "clade": {
+                                        "value": "PB2"
+                                      },
+                                      "country": {
+                                        "value": "Chile"
+                                      },
+                                      "div": 0.0229134384,
+                                      "location": {
+                                        "value": "Nahuelbuta"
+                                      },
+                                      "species": {
+                                        "value": "S. eubayanus"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL1101.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565816",
+                                          "clade": {
+                                            "value": "PB2"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.0229157796,
+                                          "location": {
+                                            "value": "Nahuelbuta"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL1109.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565804",
+                                          "clade": {
+                                            "value": "PB2"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.0229137918,
+                                          "location": {
+                                            "value": "Nahuelbuta"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000023",
+                                    "node_attrs": {
+                                      "div": 0.0229134415
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000022",
+                                "node_attrs": {
+                                  "div": 0.0229123562
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000021",
+                            "node_attrs": {
+                              "div": 0.021302049
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "yHCT107",
+                                    "node_attrs": {
+                                      "div": 0.0241319072
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL248.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565774",
+                                          "clade": {
+                                            "value": "PB2"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.024863205200000002,
+                                          "location": {
+                                            "value": "Villarrica"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL915.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565809",
+                                          "clade": {
+                                            "value": "PB2"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.0249034303,
+                                          "location": {
+                                            "value": "Nahuelbuta"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000026",
+                                    "node_attrs": {
+                                      "div": 0.0218439126
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000025",
+                                "node_attrs": {
+                                  "div": 0.0211654907
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "CL710.1",
+                                    "node_attrs": {
+                                      "accession": "SAMN11565782",
+                                      "clade": {
+                                        "value": "PB2"
+                                      },
+                                      "country": {
+                                        "value": "Chile"
+                                      },
+                                      "div": 0.0253509256,
+                                      "location": {
+                                        "value": "Altos de Lircay"
+                                      },
+                                      "species": {
+                                        "value": "S. eubayanus"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL711.2",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565763",
+                                              "clade": {
+                                                "value": "PB2"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.025964340199999998,
+                                              "location": {
+                                                "value": "Altos de Lircay"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL910.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565807",
+                                              "clade": {
+                                                "value": "PB2"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.0267579563,
+                                              "location": {
+                                                "value": "Nahuelbuta"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000029",
+                                        "node_attrs": {
+                                          "div": 0.0236148591
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL706.2",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565780",
+                                              "clade": {
+                                                "value": "PB2"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.025638443599999998,
+                                              "location": {
+                                                "value": "Altos de Lircay"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL705.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565762",
+                                                  "clade": {
+                                                    "value": "PB2"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.026380257799999998,
+                                                  "location": {
+                                                    "value": "Altos de Lircay"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL702.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565766",
+                                                      "clade": {
+                                                        "value": "PB2"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.027168041999999996,
+                                                      "location": {
+                                                        "value": "Altos de Lircay"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL701.1",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565761",
+                                                          "clade": {
+                                                            "value": "PB2"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.026515541899999998,
+                                                          "location": {
+                                                            "value": "Altos de Lircay"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "CL715.1",
+                                                            "node_attrs": {
+                                                              "accession": "SAMN11565760",
+                                                              "clade": {
+                                                                "value": "PB2"
+                                                              },
+                                                              "country": {
+                                                                "value": "Chile"
+                                                              },
+                                                              "div": 0.025974148899999997,
+                                                              "location": {
+                                                                "value": "Altos de Lircay"
+                                                              },
+                                                              "species": {
+                                                                "value": "S. eubayanus"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL703.2",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565773",
+                                                                  "clade": {
+                                                                    "value": "PB2"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.027082616299999997,
+                                                                  "location": {
+                                                                    "value": "Altos de Lircay"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL704.2",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565769",
+                                                                  "clade": {
+                                                                    "value": "PB2"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.0270858478,
+                                                                  "location": {
+                                                                    "value": "Altos de Lircay"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000035",
+                                                            "node_attrs": {
+                                                              "div": 0.0270814465
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000034",
+                                                        "node_attrs": {
+                                                          "div": 0.025884588899999998
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000033",
+                                                    "node_attrs": {
+                                                      "div": 0.025695790299999997
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000032",
+                                                "node_attrs": {
+                                                  "div": 0.025254660199999997
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000031",
+                                            "node_attrs": {
+                                              "div": 0.024899121599999997
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000030",
+                                        "node_attrs": {
+                                          "div": 0.0240325736
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000028",
+                                    "node_attrs": {
+                                      "div": 0.0228934176
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000027",
+                                "node_attrs": {
+                                  "div": 0.0221714607
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000024",
+                            "node_attrs": {
+                              "div": 0.0205857433
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000020",
+                        "node_attrs": {
+                          "div": 0.0188225817
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000019",
+                    "node_attrs": {
+                      "div": 0.0163146685
+                    }
+                  }
+                ],
+                "name": "NODE_0000018",
+                "node_attrs": {
+                  "div": 0.0095052548
+                }
+              }
+            ],
+            "name": "NODE_0000013",
+            "node_attrs": {
+              "div": 0.006405506599999999
+            }
+          },
+          {
+            "branch_attrs": {},
+            "children": [
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "name": "P1C1",
+                    "node_attrs": {
+                      "div": 0.0166107554
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "name": "yHKS509",
+                    "node_attrs": {
+                      "div": 0.018350909300000003
+                    }
+                  }
+                ],
+                "name": "NODE_0000037",
+                "node_attrs": {
+                  "div": 0.0092998109
+                }
+              },
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "yHCT63",
+                            "node_attrs": {
+                              "div": 0.014107314699999998
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "CRUB1568",
+                                "node_attrs": {
+                                  "div": 0.014899347099999998
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "name": "yHCT94",
+                                "node_attrs": {
+                                  "div": 0.0145281128
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000041",
+                            "node_attrs": {
+                              "div": 0.009833283799999998
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000040",
+                        "node_attrs": {
+                          "div": 0.008584523499999998
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "CL1002.1",
+                                "node_attrs": {
+                                  "accession": "SAMN11565752",
+                                  "clade": {
+                                    "value": "PB1"
+                                  },
+                                  "country": {
+                                    "value": "Chile"
+                                  },
+                                  "div": 0.0157108217,
+                                  "location": {
+                                    "value": "Paine Towers"
+                                  },
+                                  "species": {
+                                    "value": "S. eubayanus"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "name": "CL1007.1",
+                                "node_attrs": {
+                                  "accession": "SAMN11565755",
+                                  "clade": {
+                                    "value": "PB1"
+                                  },
+                                  "country": {
+                                    "value": "Chile"
+                                  },
+                                  "div": 0.017117286399999997,
+                                  "location": {
+                                    "value": "Paine Towers"
+                                  },
+                                  "species": {
+                                    "value": "S. eubayanus"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000043",
+                            "node_attrs": {
+                              "div": 0.012123974199999998
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL450.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565754",
+                                              "clade": {
+                                                "value": "PB1"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.0181377349,
+                                              "location": {
+                                                "value": "Coyhaique"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL471.2",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565771",
+                                              "clade": {
+                                                "value": "PB1"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.017172642499999998,
+                                              "location": {
+                                                "value": "Coyhaique"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000047",
+                                        "node_attrs": {
+                                          "div": 0.0140200986
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL801.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565757",
+                                              "clade": {
+                                                "value": "PB1"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.016776948799999997,
+                                              "location": {
+                                                "value": "Karukinka"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL807.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565777",
+                                              "clade": {
+                                                "value": "ADM"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.0165506595,
+                                              "location": {
+                                                "value": "Karukinka"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000048",
+                                        "node_attrs": {
+                                          "div": 0.015083165699999998
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000046",
+                                    "node_attrs": {
+                                      "div": 0.011645684399999998
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL444.2",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565789",
+                                              "clade": {
+                                                "value": "PB1"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.017893864899999997,
+                                              "location": {
+                                                "value": "Coyhaique"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL447.3",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565746",
+                                                  "clade": {
+                                                    "value": "PB1"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.021674273599999995,
+                                                  "location": {
+                                                    "value": "Coyhaique"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL449.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565745",
+                                                  "clade": {
+                                                    "value": "PB1"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.018135499299999996,
+                                                  "location": {
+                                                    "value": "Coyhaique"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000051",
+                                            "node_attrs": {
+                                              "div": 0.018135069499999996
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000050",
+                                        "node_attrs": {
+                                          "div": 0.015301612399999998
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL448.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565749",
+                                              "clade": {
+                                                "value": "PB1"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.018718134799999998,
+                                              "location": {
+                                                "value": "Coyhaique"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL446.2",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565750",
+                                                  "clade": {
+                                                    "value": "PB1"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.0194897084,
+                                                  "location": {
+                                                    "value": "Coyhaique"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL467.2",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565776",
+                                                  "clade": {
+                                                    "value": "PB1"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.0196537514,
+                                                  "location": {
+                                                    "value": "Coyhaique"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000053",
+                                            "node_attrs": {
+                                              "div": 0.0149953165
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000052",
+                                        "node_attrs": {
+                                          "div": 0.013698404499999999
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000049",
+                                    "node_attrs": {
+                                      "div": 0.012889828099999999
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000045",
+                                "node_attrs": {
+                                  "div": 0.010731983899999999
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL816.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565748",
+                                          "clade": {
+                                            "value": "PB1"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.016875188699999998,
+                                          "location": {
+                                            "value": "Karukinka"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL824.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565753",
+                                          "clade": {
+                                            "value": "PB1"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.0165383476,
+                                          "location": {
+                                            "value": "Karukinka"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000055",
+                                    "node_attrs": {
+                                      "div": 0.012654632099999999
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL815.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565799",
+                                              "clade": {
+                                                "value": "PB1"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.0173113458,
+                                              "location": {
+                                                "value": "Magallanes"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL813.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565801",
+                                                      "clade": {
+                                                        "value": "PB1"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.0186233793,
+                                                      "location": {
+                                                        "value": "Magallanes"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL817.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565812",
+                                                      "clade": {
+                                                        "value": "PB1"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.0180097093,
+                                                      "location": {
+                                                        "value": "Magallanes"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000059",
+                                                "node_attrs": {
+                                                  "div": 0.0150942289
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL814.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565811",
+                                                      "clade": {
+                                                        "value": "PB1"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.0183903421,
+                                                      "location": {
+                                                        "value": "Magallanes"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL835.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565744",
+                                                      "clade": {
+                                                        "value": "PB1"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.018213346999999998,
+                                                      "location": {
+                                                        "value": "Magallanes"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000060",
+                                                "node_attrs": {
+                                                  "div": 0.015098507199999998
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000058",
+                                            "node_attrs": {
+                                              "div": 0.014037886199999999
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000057",
+                                        "node_attrs": {
+                                          "div": 0.0134688487
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL1005.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565800",
+                                                  "clade": {
+                                                    "value": "PB1"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.018527796899999997,
+                                                  "location": {
+                                                    "value": "Paine Towers"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL1008.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565785",
+                                                  "clade": {
+                                                    "value": "PB1"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.018240868499999997,
+                                                  "location": {
+                                                    "value": "Paine Towers"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000062",
+                                            "node_attrs": {
+                                              "div": 0.014912829299999998
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL1010.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565775",
+                                                  "clade": {
+                                                    "value": "PB1"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.018778923599999997,
+                                                  "location": {
+                                                    "value": "Paine Towers"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL1009.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565786",
+                                                      "clade": {
+                                                        "value": "PB1"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.018287275,
+                                                      "location": {
+                                                        "value": "Paine Towers"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL1003.1",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565751",
+                                                          "clade": {
+                                                            "value": "PB1"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.0190216919,
+                                                          "location": {
+                                                            "value": "Paine Towers"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "CL1001.1",
+                                                            "node_attrs": {
+                                                              "accession": "SAMN11565788",
+                                                              "clade": {
+                                                                "value": "PB1"
+                                                              },
+                                                              "country": {
+                                                                "value": "Chile"
+                                                              },
+                                                              "div": 0.0189642145,
+                                                              "location": {
+                                                                "value": "Paine Towers"
+                                                              },
+                                                              "species": {
+                                                                "value": "S. eubayanus"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL1004.1",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565770",
+                                                                  "clade": {
+                                                                    "value": "PB1"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.018654384399999998,
+                                                                  "location": {
+                                                                    "value": "Paine Towers"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL1006.1",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565783",
+                                                                  "clade": {
+                                                                    "value": "PB1"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.018653145299999997,
+                                                                  "location": {
+                                                                    "value": "Paine Towers"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000067",
+                                                            "node_attrs": {
+                                                              "div": 0.018652074799999998
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000066",
+                                                        "node_attrs": {
+                                                          "div": 0.0186104847
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000065",
+                                                    "node_attrs": {
+                                                      "div": 0.017845381799999997
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000064",
+                                                "node_attrs": {
+                                                  "div": 0.0161735807
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000063",
+                                            "node_attrs": {
+                                              "div": 0.014256568999999998
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000061",
+                                        "node_attrs": {
+                                          "div": 0.013238607399999998
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000056",
+                                    "node_attrs": {
+                                      "div": 0.012417669599999999
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000054",
+                                "node_attrs": {
+                                  "div": 0.010961872099999999
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000044",
+                            "node_attrs": {
+                              "div": 0.009882852999999999
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000042",
+                        "node_attrs": {
+                          "div": 0.009180379599999998
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000039",
+                    "node_attrs": {
+                      "div": 0.007851371999999999
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "CL619.1",
+                            "node_attrs": {
+                              "accession": "SAMN11565758",
+                              "clade": {
+                                "value": "PB1"
+                              },
+                              "country": {
+                                "value": "Chile"
+                              },
+                              "div": 0.015292431799999999,
+                              "location": {
+                                "value": "Osorno Volcano"
+                              },
+                              "species": {
+                                "value": "S. eubayanus"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "CL621.1",
+                                "node_attrs": {
+                                  "accession": "SAMN11565743",
+                                  "clade": {
+                                    "value": "PB1"
+                                  },
+                                  "country": {
+                                    "value": "Chile"
+                                  },
+                                  "div": 0.0149044566,
+                                  "location": {
+                                    "value": "Osorno Volcano"
+                                  },
+                                  "species": {
+                                    "value": "S. eubayanus"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "CL605.1",
+                                    "node_attrs": {
+                                      "accession": "SAMN11565784",
+                                      "clade": {
+                                        "value": "PB1"
+                                      },
+                                      "country": {
+                                        "value": "Chile"
+                                      },
+                                      "div": 0.0149060716,
+                                      "location": {
+                                        "value": "Osorno Volcano"
+                                      },
+                                      "species": {
+                                        "value": "S. eubayanus"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "CL606.1",
+                                    "node_attrs": {
+                                      "accession": "SAMN11565787",
+                                      "clade": {
+                                        "value": "PB1"
+                                      },
+                                      "country": {
+                                        "value": "Chile"
+                                      },
+                                      "div": 0.0149116926,
+                                      "location": {
+                                        "value": "Osorno Volcano"
+                                      },
+                                      "species": {
+                                        "value": "S. eubayanus"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000071",
+                                "node_attrs": {
+                                  "div": 0.0149038805
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000070",
+                            "node_attrs": {
+                              "div": 0.014903416899999999
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000069",
+                        "node_attrs": {
+                          "div": 0.011958647499999999
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "CL210.1",
+                            "node_attrs": {
+                              "accession": "SAMN11565791",
+                              "clade": {
+                                "value": "ADM"
+                              },
+                              "country": {
+                                "value": "Chile"
+                              },
+                              "div": 0.018715536,
+                              "location": {
+                                "value": "Villarrica"
+                              },
+                              "species": {
+                                "value": "S. eubayanus"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "CL451.4",
+                                    "node_attrs": {
+                                      "accession": "SAMN11565747",
+                                      "clade": {
+                                        "value": "ADM"
+                                      },
+                                      "country": {
+                                        "value": "Chile"
+                                      },
+                                      "div": 0.028524298599999998,
+                                      "location": {
+                                        "value": "Coyhaique"
+                                      },
+                                      "species": {
+                                        "value": "S. eubayanus"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL803.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565805",
+                                          "clade": {
+                                            "value": "ADM"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.0279625069,
+                                          "location": {
+                                            "value": "Karukinka"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL821.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565803",
+                                              "clade": {
+                                                "value": "ADM"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.0281692065,
+                                              "location": {
+                                                "value": "Karukinka"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL810.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565778",
+                                                  "clade": {
+                                                    "value": "ADM"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.028654680199999998,
+                                                  "location": {
+                                                    "value": "Karukinka"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL804.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565765",
+                                                      "clade": {
+                                                        "value": "ADM"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.0285726044,
+                                                      "location": {
+                                                        "value": "Karukinka"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL812.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565772",
+                                                      "clade": {
+                                                        "value": "PB1"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.0285739364,
+                                                      "location": {
+                                                        "value": "Karukinka"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000078",
+                                                "node_attrs": {
+                                                  "div": 0.0285472325
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000077",
+                                            "node_attrs": {
+                                              "div": 0.028462532699999998
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000076",
+                                        "node_attrs": {
+                                          "div": 0.027814894899999998
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000075",
+                                    "node_attrs": {
+                                      "div": 0.0273483294
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000074",
+                                "node_attrs": {
+                                  "div": 0.024068025399999998
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "CL608.1",
+                                        "node_attrs": {
+                                          "accession": "SAMN11565796",
+                                          "clade": {
+                                            "value": "PB3"
+                                          },
+                                          "country": {
+                                            "value": "Chile"
+                                          },
+                                          "div": 0.025942259799999996,
+                                          "location": {
+                                            "value": "Puyehue"
+                                          },
+                                          "species": {
+                                            "value": "S. eubayanus"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL601.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565781",
+                                              "clade": {
+                                                "value": "PB3"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.026132398099999996,
+                                              "location": {
+                                                "value": "Puyehue"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "CL611.1",
+                                            "node_attrs": {
+                                              "accession": "SAMN11565810",
+                                              "clade": {
+                                                "value": "PB3"
+                                              },
+                                              "country": {
+                                                "value": "Chile"
+                                              },
+                                              "div": 0.026133008299999996,
+                                              "location": {
+                                                "value": "Puyehue"
+                                              },
+                                              "species": {
+                                                "value": "S. eubayanus"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000081",
+                                        "node_attrs": {
+                                          "div": 0.026121643699999995
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000080",
+                                    "node_attrs": {
+                                      "div": 0.025147255399999995
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL204.3",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565824",
+                                                  "clade": {
+                                                    "value": "PB3"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.0265259573,
+                                                  "location": {
+                                                    "value": "Villarrica"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL620.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565793",
+                                                  "clade": {
+                                                    "value": "PB3"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.027007310899999998,
+                                                  "location": {
+                                                    "value": "Osorno Volcano"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000084",
+                                            "node_attrs": {
+                                              "div": 0.0251732171
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL604.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565764",
+                                                      "clade": {
+                                                        "value": "PB3"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.028174232099999995,
+                                                      "location": {
+                                                        "value": "Puyehue"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL610.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565759",
+                                                      "clade": {
+                                                        "value": "PB3"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.026872688599999996,
+                                                      "location": {
+                                                        "value": "Puyehue"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000086",
+                                                "node_attrs": {
+                                                  "div": 0.025662895399999996
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL215.1",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565767",
+                                                          "clade": {
+                                                            "value": "PB3"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.026883154399999998,
+                                                          "location": {
+                                                            "value": "Villarrica"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL216.1",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565818",
+                                                          "clade": {
+                                                            "value": "PB3"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.026883155899999997,
+                                                          "location": {
+                                                            "value": "Villarrica"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000088",
+                                                    "node_attrs": {
+                                                      "div": 0.026882135799999998
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL220.3",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565814",
+                                                          "clade": {
+                                                            "value": "PB3"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.026988939099999994,
+                                                          "location": {
+                                                            "value": "Villarrica"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "CL221.1",
+                                                            "node_attrs": {
+                                                              "accession": "SAMN11565808",
+                                                              "clade": {
+                                                                "value": "PB3"
+                                                              },
+                                                              "country": {
+                                                                "value": "Chile"
+                                                              },
+                                                              "div": 0.026980382799999997,
+                                                              "location": {
+                                                                "value": "Villarrica"
+                                                              },
+                                                              "species": {
+                                                                "value": "S. eubayanus"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL212.2",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565819",
+                                                                  "clade": {
+                                                                    "value": "PB3"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.026980743399999996,
+                                                                  "location": {
+                                                                    "value": "Villarrica"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL218.1",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565821",
+                                                                  "clade": {
+                                                                    "value": "PB3"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.026981411999999996,
+                                                                  "location": {
+                                                                    "value": "Villarrica"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000091",
+                                                            "node_attrs": {
+                                                              "div": 0.026980393099999996
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000090",
+                                                        "node_attrs": {
+                                                          "div": 0.026980032499999997
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000089",
+                                                    "node_attrs": {
+                                                      "div": 0.026967974299999996
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000087",
+                                                "node_attrs": {
+                                                  "div": 0.026076476999999997
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000085",
+                                            "node_attrs": {
+                                              "div": 0.025090518599999997
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000083",
+                                        "node_attrs": {
+                                          "div": 0.0245018084
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL607.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565768",
+                                                  "clade": {
+                                                    "value": "PB3"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.027047565299999996,
+                                                  "location": {
+                                                    "value": "Puyehue"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "CL902.1",
+                                                "node_attrs": {
+                                                  "accession": "SAMN11565822",
+                                                  "clade": {
+                                                    "value": "PB3"
+                                                  },
+                                                  "country": {
+                                                    "value": "Chile"
+                                                  },
+                                                  "div": 0.026835820499999996,
+                                                  "location": {
+                                                    "value": "Choshuenco"
+                                                  },
+                                                  "species": {
+                                                    "value": "S. eubayanus"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000093",
+                                            "node_attrs": {
+                                              "div": 0.025399627999999997
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL1104.1",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565802",
+                                                          "clade": {
+                                                            "value": "PB3"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.027553317499999997,
+                                                          "location": {
+                                                            "value": "Choshuenco"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL1110.1",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565795",
+                                                          "clade": {
+                                                            "value": "PB3"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.027549204399999996,
+                                                          "location": {
+                                                            "value": "Choshuenco"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000096",
+                                                    "node_attrs": {
+                                                      "div": 0.027548854099999995
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "name": "CL916.1",
+                                                        "node_attrs": {
+                                                          "accession": "SAMN11565794",
+                                                          "clade": {
+                                                            "value": "PB3"
+                                                          },
+                                                          "country": {
+                                                            "value": "Chile"
+                                                          },
+                                                          "div": 0.027138948899999994,
+                                                          "location": {
+                                                            "value": "Choshuenco"
+                                                          },
+                                                          "species": {
+                                                            "value": "S. eubayanus"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "CL211.3",
+                                                            "node_attrs": {
+                                                              "accession": "SAMN11565792",
+                                                              "clade": {
+                                                                "value": "PB3"
+                                                              },
+                                                              "country": {
+                                                                "value": "Chile"
+                                                              },
+                                                              "div": 0.027294669899999995,
+                                                              "location": {
+                                                                "value": "Villarrica"
+                                                              },
+                                                              "species": {
+                                                                "value": "S. eubayanus"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "yHCT105",
+                                                            "node_attrs": {
+                                                              "div": 0.027282767799999993
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000098",
+                                                        "node_attrs": {
+                                                          "div": 0.027259545599999994
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000097",
+                                                    "node_attrs": {
+                                                      "div": 0.026019924599999994
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000095",
+                                                "node_attrs": {
+                                                  "div": 0.025118043099999994
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "CL903.1",
+                                                    "node_attrs": {
+                                                      "accession": "SAMN11565820",
+                                                      "clade": {
+                                                        "value": "PB3"
+                                                      },
+                                                      "country": {
+                                                        "value": "Chile"
+                                                      },
+                                                      "div": 0.027014974899999995,
+                                                      "location": {
+                                                        "value": "Choshuenco"
+                                                      },
+                                                      "species": {
+                                                        "value": "S. eubayanus"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "CL907.1",
+                                                            "node_attrs": {
+                                                              "accession": "SAMN11565815",
+                                                              "clade": {
+                                                                "value": "PB3"
+                                                              },
+                                                              "country": {
+                                                                "value": "Chile"
+                                                              },
+                                                              "div": 0.0271950132,
+                                                              "location": {
+                                                                "value": "Choshuenco"
+                                                              },
+                                                              "species": {
+                                                                "value": "S. eubayanus"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "CL909.1",
+                                                            "node_attrs": {
+                                                              "accession": "SAMN11565813",
+                                                              "clade": {
+                                                                "value": "PB3"
+                                                              },
+                                                              "country": {
+                                                                "value": "Chile"
+                                                              },
+                                                              "div": 0.0271919973,
+                                                              "location": {
+                                                                "value": "Choshuenco"
+                                                              },
+                                                              "species": {
+                                                                "value": "S. eubayanus"
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000101",
+                                                        "node_attrs": {
+                                                          "div": 0.0271803232
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "name": "CL905.1",
+                                                            "node_attrs": {
+                                                              "accession": "SAMN11565806",
+                                                              "clade": {
+                                                                "value": "PB3"
+                                                              },
+                                                              "country": {
+                                                                "value": "Chile"
+                                                              },
+                                                              "div": 0.027072804799999996,
+                                                              "location": {
+                                                                "value": "Choshuenco"
+                                                              },
+                                                              "species": {
+                                                                "value": "S. eubayanus"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL904.1",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565823",
+                                                                  "clade": {
+                                                                    "value": "PB3"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.027072557799999997,
+                                                                  "location": {
+                                                                    "value": "Choshuenco"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {},
+                                                                "name": "CL906.1",
+                                                                "node_attrs": {
+                                                                  "accession": "SAMN11565817",
+                                                                  "clade": {
+                                                                    "value": "PB3"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Chile"
+                                                                  },
+                                                                  "div": 0.027075884399999996,
+                                                                  "location": {
+                                                                    "value": "Choshuenco"
+                                                                  },
+                                                                  "species": {
+                                                                    "value": "S. eubayanus"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000103",
+                                                            "node_attrs": {
+                                                              "div": 0.027065850299999996
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000102",
+                                                        "node_attrs": {
+                                                          "div": 0.027055565999999996
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000100",
+                                                    "node_attrs": {
+                                                      "div": 0.026451716299999997
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000099",
+                                                "node_attrs": {
+                                                  "div": 0.025570314499999997
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000094",
+                                            "node_attrs": {
+                                              "div": 0.024732358199999995
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000092",
+                                        "node_attrs": {
+                                          "div": 0.024402948699999996
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000082",
+                                    "node_attrs": {
+                                      "div": 0.024017403899999998
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000079",
+                                "node_attrs": {
+                                  "div": 0.023640624099999997
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000073",
+                            "node_attrs": {
+                              "div": 0.0221789164
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000072",
+                        "node_attrs": {
+                          "div": 0.0155233752
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000068",
+                    "node_attrs": {
+                      "div": 0.0095459521
+                    }
+                  }
+                ],
+                "name": "NODE_0000038",
+                "node_attrs": {
+                  "div": 0.007258167899999999
+                }
+              }
+            ],
+            "name": "NODE_0000036",
+            "node_attrs": {
+              "div": 0.0063156405
+            }
+          }
+        ],
+        "name": "NODE_0000012",
+        "node_attrs": {
+          "div": 0.0056494734
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0
+    }
+  },
+  "version": "v2"
+}
