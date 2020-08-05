@@ -7,634 +7,637 @@
   "input_tree": "data/final_tree_incompletenames.nwk",
   "nodes": {
     "CDFM21L": {
-      "branch_length": 0.0058416739
+      "branch_length": 0.005841673900000011
     },
     "CL1001.1": {
-      "branch_length": 0.0003537298
+      "branch_length": 0.0003537297999999245
     },
     "CL1002.1": {
-      "branch_length": 0.0035868475
+      "branch_length": 0.0035868475000000455
     },
     "CL1003.1": {
-      "branch_length": 0.0011763101
+      "branch_length": 0.0011763101000000775
     },
     "CL1004.1": {
-      "branch_length": 2.3096e-06
+      "branch_length": 2.3096000000277783e-06
     },
     "CL1005.1": {
-      "branch_length": 0.0036149676
+      "branch_length": 0.0036149675999999076
     },
     "CL1006.1": {
-      "branch_length": 1.0705e-06
+      "branch_length": 1.0704999999777698e-06
     },
     "CL1007.1": {
-      "branch_length": 0.0049933122
+      "branch_length": 0.0049933121999999885
     },
     "CL1008.1": {
-      "branch_length": 0.0033280392
+      "branch_length": 0.0033280391999999104
     },
     "CL1009.1": {
-      "branch_length": 0.0021136943
+      "branch_length": 0.0021136943000000796
     },
     "CL1010.1": {
-      "branch_length": 0.0045223546
+      "branch_length": 0.004522354599999945
     },
     "CL1101.1": {
-      "branch_length": 2.3381e-06
+      "branch_length": 2.3381000000544105e-06
     },
     "CL1104.1": {
-      "branch_length": 4.4634e-06
+      "branch_length": 4.463400000043194e-06
     },
     "CL1105.1": {
-      "branch_length": 0.9144727995
+      "branch_length": 0.45723639975
     },
     "CL1106.1": {
-      "branch_length": 0.004235349
+      "branch_length": 0.004235348999999999
     },
     "CL1108.1": {
-      "branch_length": 1.0822e-06
+      "branch_length": 1.0822000000576537e-06
     },
     "CL1109.1": {
-      "branch_length": 3.503e-07
+      "branch_length": 3.50300000007131e-07
     },
     "CL1110.1": {
-      "branch_length": 3.503e-07
+      "branch_length": 3.50300000007131e-07
     },
     "CL1111.1": {
-      "branch_length": 0.0029508293
+      "branch_length": 0.002950829300000013
     },
     "CL1112.1": {
-      "branch_length": 0.0072452575
+      "branch_length": 0.007245257500000046
     },
     "CL204.3": {
-      "branch_length": 0.0013527402
+      "branch_length": 0.00135274019999998
     },
     "CL210.1": {
-      "branch_length": 0.0031921608
+      "branch_length": 0.0031921607999999546
     },
     "CL211.3": {
-      "branch_length": 3.51243e-05
+      "branch_length": 3.51242999999668e-05
     },
     "CL212.2": {
-      "branch_length": 3.503e-07
+      "branch_length": 3.50300000007131e-07
     },
     "CL215.1": {
-      "branch_length": 1.0186e-06
+      "branch_length": 1.0186000000134143e-06
     },
     "CL216.1": {
-      "branch_length": 1.0201e-06
+      "branch_length": 1.0201000000265026e-06
     },
     "CL218.1": {
-      "branch_length": 1.0189e-06
+      "branch_length": 1.0189000000382364e-06
     },
     "CL220.3": {
-      "branch_length": 2.09648e-05
+      "branch_length": 2.0964800000022876e-05
     },
     "CL221.1": {
-      "branch_length": 3.503e-07
+      "branch_length": 3.50300000007131e-07
     },
     "CL248.1": {
-      "branch_length": 0.0030192926
+      "branch_length": 0.003019292600000001
     },
     "CL444.2": {
-      "branch_length": 0.0025922525
+      "branch_length": 0.0025922525000000585
     },
     "CL446.2": {
-      "branch_length": 0.0044943919
+      "branch_length": 0.0044943919000000054
     },
     "CL447.3": {
-      "branch_length": 0.0035392041
+      "branch_length": 0.0035392040999999708
     },
     "CL448.1": {
-      "branch_length": 0.0050197303
+      "branch_length": 0.005019730299999914
     },
     "CL449.1": {
-      "branch_length": 4.298e-07
+      "branch_length": 4.2980000003467467e-07
     },
     "CL450.1": {
-      "branch_length": 0.0041176363
+      "branch_length": 0.00411763630000006
     },
     "CL451.4": {
-      "branch_length": 0.0044562732
+      "branch_length": 0.004456273199999972
     },
     "CL467.2": {
-      "branch_length": 0.0046584349
+      "branch_length": 0.0046584349000000635
     },
     "CL471.2": {
-      "branch_length": 0.0031525439
+      "branch_length": 0.003152543899999971
     },
     "CL601.1": {
-      "branch_length": 1.07544e-05
+      "branch_length": 1.0754399999979292e-05
     },
     "CL604.1": {
-      "branch_length": 0.0025113367
+      "branch_length": 0.002511336700000033
     },
     "CL605.1": {
-      "branch_length": 2.1911e-06
+      "branch_length": 2.191099999993007e-06
     },
     "CL606.1": {
-      "branch_length": 7.8121e-06
+      "branch_length": 7.812100000004207e-06
     },
     "CL607.1": {
-      "branch_length": 0.0016479373
+      "branch_length": 0.001647937300000013
     },
     "CL608.1": {
-      "branch_length": 0.0007950044
+      "branch_length": 0.0007950044000000211
     },
     "CL609.1": {
-      "branch_length": 0.0126537903
+      "branch_length": 0.012653790299999912
     },
     "CL610.1": {
-      "branch_length": 0.0012097932
+      "branch_length": 0.001209793200000031
     },
     "CL611.1": {
-      "branch_length": 1.13646e-05
+      "branch_length": 1.1364599999952318e-05
     },
     "CL619.1": {
-      "branch_length": 0.0033337843
+      "branch_length": 0.0033337842999999756
     },
     "CL620.1": {
-      "branch_length": 0.0018340938
+      "branch_length": 0.0018340937999999918
     },
     "CL621.1": {
-      "branch_length": 1.0397e-06
+      "branch_length": 1.0396999999828793e-06
     },
     "CL701.1": {
-      "branch_length": 0.0008197516
+      "branch_length": 0.0008197516000000293
     },
     "CL702.1": {
-      "branch_length": 0.0019133818
+      "branch_length": 0.0019133818000000025
     },
     "CL703.2": {
-      "branch_length": 1.1698e-06
+      "branch_length": 1.1697999999782382e-06
     },
     "CL704.2": {
-      "branch_length": 4.4013e-06
+      "branch_length": 4.401300000012043e-06
     },
     "CL705.1": {
-      "branch_length": 0.0014811362
+      "branch_length": 0.0014811362000000106
     },
     "CL706.2": {
-      "branch_length": 0.00160587
+      "branch_length": 0.0016058700000000092
     },
     "CL710.1": {
-      "branch_length": 0.0031794649
+      "branch_length": 0.003179464899999984
     },
     "CL711.2": {
-      "branch_length": 0.0023494811
+      "branch_length": 0.002349481099999995
     },
     "CL715.1": {
-      "branch_length": 8.956e-05
+      "branch_length": 8.956000000004405e-05
     },
     "CL801.1": {
-      "branch_length": 0.0016937831
+      "branch_length": 0.0016937831000000125
     },
     "CL803.1": {
-      "branch_length": 0.0006141775
+      "branch_length": 0.0006141775000000349
     },
     "CL804.1": {
-      "branch_length": 2.53719e-05
+      "branch_length": 2.53718999999597e-05
     },
     "CL807.1": {
-      "branch_length": 0.0014674938
+      "branch_length": 0.001467493799999997
     },
     "CL810.1": {
-      "branch_length": 0.0001921475
+      "branch_length": 0.00019214749999996172
     },
     "CL812.1": {
-      "branch_length": 2.67039e-05
+      "branch_length": 2.6703900000035752e-05
     },
     "CL813.1": {
-      "branch_length": 0.0035291504
+      "branch_length": 0.003529150400000014
     },
     "CL814.1": {
-      "branch_length": 0.0032918349
+      "branch_length": 0.003291834900000068
     },
     "CL815.1": {
-      "branch_length": 0.0038424971
+      "branch_length": 0.003842497100000064
     },
     "CL816.1": {
-      "branch_length": 0.0042205566
+      "branch_length": 0.004220556600000092
     },
     "CL817.1": {
-      "branch_length": 0.0029154804
+      "branch_length": 0.0029154804000000034
     },
     "CL821.1": {
-      "branch_length": 0.0003543116
+      "branch_length": 0.0003543115999999902
     },
     "CL824.1": {
-      "branch_length": 0.0038837155
+      "branch_length": 0.0038837154999999957
     },
     "CL835.1": {
-      "branch_length": 0.0031148398
+      "branch_length": 0.0031148398000000466
     },
     "CL902.1": {
-      "branch_length": 0.0014361925
+      "branch_length": 0.0014361925000000442
     },
     "CL903.1": {
-      "branch_length": 0.0014446604
+      "branch_length": 0.0014446604000000196
     },
     "CL904.1": {
-      "branch_length": 6.7075e-06
+      "branch_length": 6.7074999999805485e-06
     },
     "CL905.1": {
-      "branch_length": 1.72388e-05
+      "branch_length": 1.7238799999930166e-05
     },
     "CL906.1": {
-      "branch_length": 1.00341e-05
+      "branch_length": 1.0034100000000379e-05
     },
     "CL907.1": {
-      "branch_length": 1.469e-05
+      "branch_length": 1.4689999999983883e-05
     },
     "CL909.1": {
-      "branch_length": 1.16741e-05
+      "branch_length": 1.1674100000025334e-05
     },
     "CL910.1": {
-      "branch_length": 0.0031430972
+      "branch_length": 0.0031430971999999446
     },
     "CL915.1": {
-      "branch_length": 0.0030595177
+      "branch_length": 0.003059517700000014
     },
     "CL916.1": {
-      "branch_length": 0.0011190243
+      "branch_length": 0.0011190242999999933
     },
     "CRUB1568": {
-      "branch_length": 0.0050660633
+      "branch_length": 0.005066063299999923
     },
     "NODE_0000000": {
       "branch_length": 0.001
     },
     "NODE_0000001": {
-      "branch_length": 0.0096972958
+      "branch_length": 0.45723639975
     },
     "NODE_0000002": {
-      "branch_length": 0.0193126018
+      "branch_length": 0.009697295800000005
     },
     "NODE_0000003": {
-      "branch_length": 0.0112219876
+      "branch_length": 0.01931260180000005
     },
     "NODE_0000004": {
-      "branch_length": 0.0195257472
+      "branch_length": 0.011221987599999927
     },
     "NODE_0000005": {
-      "branch_length": 0.0044133767
+      "branch_length": 0.0195257472
     },
     "NODE_0000006": {
-      "branch_length": 0.0013925718
+      "branch_length": 0.004413376699999971
     },
     "NODE_0000007": {
-      "branch_length": 0.0112215367
+      "branch_length": 0.0013925718000000753
     },
     "NODE_0000008": {
-      "branch_length": 1.41413e-05
+      "branch_length": 0.011221536700000034
     },
     "NODE_0000009": {
-      "branch_length": 3.5708e-06
+      "branch_length": 1.4141299999992363e-05
     },
     "NODE_0000010": {
-      "branch_length": 1.57849e-05
+      "branch_length": 3.57080000001897e-06
     },
     "NODE_0000011": {
-      "branch_length": 1.54748e-05
+      "branch_length": 1.5784899999982116e-05
     },
     "NODE_0000012": {
-      "branch_length": 0.0056494734
+      "branch_length": 1.547479999997048e-05
     },
     "NODE_0000013": {
-      "branch_length": 0.0007560332
+      "branch_length": 0.0056494733999999935
     },
     "NODE_0000014": {
-      "branch_length": 0.013583386
+      "branch_length": 0.0007560332000000614
     },
     "NODE_0000015": {
-      "branch_length": 0.010342335
+      "branch_length": 0.013583385999999975
     },
     "NODE_0000016": {
-      "branch_length": 0.0030117354
+      "branch_length": 0.010342334999999925
     },
     "NODE_0000017": {
-      "branch_length": 0.0035297592
+      "branch_length": 0.003011735399999993
     },
     "NODE_0000018": {
-      "branch_length": 0.0030997482
+      "branch_length": 0.0035297591999999822
     },
     "NODE_0000019": {
-      "branch_length": 0.0068094137
+      "branch_length": 0.003099748199999919
     },
     "NODE_0000020": {
-      "branch_length": 0.0025079132
+      "branch_length": 0.006809413699999989
     },
     "NODE_0000021": {
-      "branch_length": 0.0024794673
+      "branch_length": 0.0025079131999999893
     },
     "NODE_0000022": {
-      "branch_length": 0.0016103072
+      "branch_length": 0.002479467300000038
     },
     "NODE_0000023": {
-      "branch_length": 1.0853e-06
+      "branch_length": 0.001610307199999994
     },
     "NODE_0000024": {
-      "branch_length": 0.0017631616
+      "branch_length": 1.085299999981082e-06
     },
     "NODE_0000025": {
-      "branch_length": 0.0005797474
+      "branch_length": 0.0017631616000000072
     },
     "NODE_0000026": {
-      "branch_length": 0.0006784219
+      "branch_length": 0.0005797473999999969
     },
     "NODE_0000027": {
-      "branch_length": 0.0015857174
+      "branch_length": 0.0006784219000000036
     },
     "NODE_0000028": {
-      "branch_length": 0.0007219569
+      "branch_length": 0.0015857174000000196
     },
     "NODE_0000029": {
-      "branch_length": 0.0007214415
+      "branch_length": 0.000721956899999987
     },
     "NODE_0000030": {
-      "branch_length": 0.001139156
+      "branch_length": 0.0007214415000000862
     },
     "NODE_0000031": {
-      "branch_length": 0.000866548
+      "branch_length": 0.00113915600000003
     },
     "NODE_0000032": {
-      "branch_length": 0.0003555386
+      "branch_length": 0.000866547999999967
     },
     "NODE_0000033": {
-      "branch_length": 0.0004411301
+      "branch_length": 0.00035553860000003823
     },
     "NODE_0000034": {
-      "branch_length": 0.0001887986
+      "branch_length": 0.00044113010000002006
     },
     "NODE_0000035": {
-      "branch_length": 0.0011968576
+      "branch_length": 0.00018879859999998416
     },
     "NODE_0000036": {
-      "branch_length": 0.0006661671
+      "branch_length": 0.0011968575999999898
     },
     "NODE_0000037": {
-      "branch_length": 0.0029841704
+      "branch_length": 0.0006661671000000036
     },
     "NODE_0000038": {
-      "branch_length": 0.0009425274
+      "branch_length": 0.002984170399999986
     },
     "NODE_0000039": {
-      "branch_length": 0.0005932041
+      "branch_length": 0.0009425274000000039
     },
     "NODE_0000040": {
-      "branch_length": 0.0007331515
+      "branch_length": 0.0005932040999999666
     },
     "NODE_0000041": {
-      "branch_length": 0.0012487603
+      "branch_length": 0.0007331515000000843
     },
     "NODE_0000042": {
-      "branch_length": 0.0013290076
+      "branch_length": 0.0012487602999999847
     },
     "NODE_0000043": {
-      "branch_length": 0.0029435946
+      "branch_length": 0.0013290075999999873
     },
     "NODE_0000044": {
-      "branch_length": 0.0007024734
+      "branch_length": 0.0029435946000000435
     },
     "NODE_0000045": {
-      "branch_length": 0.0008491309
+      "branch_length": 0.0007024734000000699
     },
     "NODE_0000046": {
-      "branch_length": 0.0009137005
+      "branch_length": 0.0008491308999999392
     },
     "NODE_0000047": {
-      "branch_length": 0.0023744142
+      "branch_length": 0.0009137005000000586
     },
     "NODE_0000048": {
-      "branch_length": 0.0034374813
+      "branch_length": 0.0023744141999999524
     },
     "NODE_0000049": {
-      "branch_length": 0.0021578442
+      "branch_length": 0.0034374812999999893
     },
     "NODE_0000050": {
-      "branch_length": 0.0024117843
+      "branch_length": 0.002157844199999981
     },
     "NODE_0000051": {
-      "branch_length": 0.0028334571
+      "branch_length": 0.002411784299999997
     },
     "NODE_0000052": {
-      "branch_length": 0.0008085764
+      "branch_length": 0.0028334571000000475
     },
     "NODE_0000053": {
-      "branch_length": 0.001296912
+      "branch_length": 0.0008085764000000939
     },
     "NODE_0000054": {
-      "branch_length": 0.0010790191
+      "branch_length": 0.001296911999999928
     },
     "NODE_0000055": {
-      "branch_length": 0.00169276
+      "branch_length": 0.0010790190999999671
     },
     "NODE_0000056": {
-      "branch_length": 0.0014557975
+      "branch_length": 0.0016927599999999599
     },
     "NODE_0000057": {
-      "branch_length": 0.0010511791
+      "branch_length": 0.0014557975000000223
     },
     "NODE_0000058": {
-      "branch_length": 0.0005690375
+      "branch_length": 0.001051179099999966
     },
     "NODE_0000059": {
-      "branch_length": 0.0010563427
+      "branch_length": 0.0005690375000000358
     },
     "NODE_0000060": {
-      "branch_length": 0.001060621
+      "branch_length": 0.0010563426999999903
     },
     "NODE_0000061": {
-      "branch_length": 0.0008209378
+      "branch_length": 0.0010606209999999283
     },
     "NODE_0000062": {
-      "branch_length": 0.0016742219
+      "branch_length": 0.0008209378000000322
     },
     "NODE_0000063": {
-      "branch_length": 0.0010179616
+      "branch_length": 0.0016742218999999947
     },
     "NODE_0000064": {
-      "branch_length": 0.0019170117
+      "branch_length": 0.0010179616000000058
     },
     "NODE_0000065": {
-      "branch_length": 0.0016718011
+      "branch_length": 0.0019170116999999154
     },
     "NODE_0000066": {
-      "branch_length": 0.0007651029
+      "branch_length": 0.001671801099999981
     },
     "NODE_0000067": {
-      "branch_length": 4.15901e-05
+      "branch_length": 0.000765102900000092
     },
     "NODE_0000068": {
-      "branch_length": 0.0022877842
+      "branch_length": 4.159009999993302e-05
     },
     "NODE_0000069": {
-      "branch_length": 0.0024126954
+      "branch_length": 0.002287784199999976
     },
     "NODE_0000070": {
-      "branch_length": 0.0029447694
+      "branch_length": 0.002412695399999998
     },
     "NODE_0000071": {
-      "branch_length": 4.636e-07
+      "branch_length": 0.0029447693999999913
     },
     "NODE_0000072": {
-      "branch_length": 0.0059774231
+      "branch_length": 4.6360000005574165e-07
     },
     "NODE_0000073": {
-      "branch_length": 0.0066555412
+      "branch_length": 0.0059774231000000455
     },
     "NODE_0000074": {
-      "branch_length": 0.001889109
+      "branch_length": 0.006655541200000004
     },
     "NODE_0000075": {
-      "branch_length": 0.003280304
+      "branch_length": 0.0018891089999999444
     },
     "NODE_0000076": {
-      "branch_length": 0.0004665655
+      "branch_length": 0.0032803040000000117
     },
     "NODE_0000077": {
-      "branch_length": 0.0006476378
+      "branch_length": 0.00046656550000001573
     },
     "NODE_0000078": {
-      "branch_length": 8.46998e-05
+      "branch_length": 0.0006476377999999894
     },
     "NODE_0000079": {
-      "branch_length": 0.0014617077
+      "branch_length": 8.469980000003208e-05
     },
     "NODE_0000080": {
-      "branch_length": 0.0015066313
+      "branch_length": 0.0014617076999999812
     },
     "NODE_0000081": {
-      "branch_length": 0.0009743883
+      "branch_length": 0.0015066312999999498
     },
     "NODE_0000082": {
-      "branch_length": 0.0003767798
+      "branch_length": 0.000974388300000073
     },
     "NODE_0000083": {
-      "branch_length": 0.0004844045
+      "branch_length": 0.00037677979999994893
     },
     "NODE_0000084": {
-      "branch_length": 0.0006714087
+      "branch_length": 0.0004844045000000907
     },
     "NODE_0000085": {
-      "branch_length": 0.0005887102
+      "branch_length": 0.0006714086999999314
     },
     "NODE_0000086": {
-      "branch_length": 0.0005723768
+      "branch_length": 0.0005887101999999533
     },
     "NODE_0000087": {
-      "branch_length": 0.0009859584
+      "branch_length": 0.0005723767999999962
     },
     "NODE_0000088": {
-      "branch_length": 0.0008056588
+      "branch_length": 0.000985958400000042
     },
     "NODE_0000089": {
-      "branch_length": 0.0008914973
+      "branch_length": 0.0008056587999999421
     },
     "NODE_0000090": {
-      "branch_length": 1.20582e-05
+      "branch_length": 0.0008914972999999327
     },
     "NODE_0000091": {
-      "branch_length": 3.606e-07
+      "branch_length": 1.2058200000053532e-05
     },
     "NODE_0000092": {
-      "branch_length": 0.0003855448
+      "branch_length": 3.605999999711784e-07
     },
     "NODE_0000093": {
-      "branch_length": 0.0009966793
+      "branch_length": 0.0003855448000000816
     },
     "NODE_0000094": {
-      "branch_length": 0.0003294095
+      "branch_length": 0.0009966792999999141
     },
     "NODE_0000095": {
-      "branch_length": 0.0003856849
+      "branch_length": 0.0003294094999999331
     },
     "NODE_0000096": {
-      "branch_length": 0.002430811
+      "branch_length": 0.0003856849000000162
     },
     "NODE_0000097": {
-      "branch_length": 0.0009018815
+      "branch_length": 0.002430810999999977
     },
     "NODE_0000098": {
-      "branch_length": 0.001239621
+      "branch_length": 0.0009018815000000346
     },
     "NODE_0000099": {
-      "branch_length": 0.0008379563
+      "branch_length": 0.0012396209999999686
     },
     "NODE_0000100": {
-      "branch_length": 0.0008814018
+      "branch_length": 0.0008379563000000534
     },
     "NODE_0000101": {
-      "branch_length": 0.0007286069
+      "branch_length": 0.000881401799999959
     },
     "NODE_0000102": {
-      "branch_length": 0.0006038497
+      "branch_length": 0.000728606899999984
     },
     "NODE_0000103": {
-      "branch_length": 1.02843e-05
+      "branch_length": 0.0006038497000000476
+    },
+    "NODE_0000104": {
+      "branch_length": 1.0284299999940849e-05
     },
     "P1C1": {
-      "branch_length": 0.0073109445
+      "branch_length": 0.007310944500000027
     },
     "yHAB47": {
-      "branch_length": 0.00059948
+      "branch_length": 0.0005994799999999856
     },
     "yHCT104": {
-      "branch_length": 0.0042098989
+      "branch_length": 0.004209898900000009
     },
     "yHCT105": {
-      "branch_length": 2.32222e-05
+      "branch_length": 2.3222199999950455e-05
     },
     "yHCT107": {
-      "branch_length": 0.0029664165
+      "branch_length": 0.0029664165000000686
     },
     "yHCT114": {
-      "branch_length": 0.0044023455
+      "branch_length": 0.00440234549999996
     },
     "yHCT63": {
-      "branch_length": 0.0055227912
+      "branch_length": 0.005522791199999988
     },
     "yHCT72": {
-      "branch_length": 0.0043516388
+      "branch_length": 0.004351638800000002
     },
     "yHCT81": {
-      "branch_length": 0.0005508607
+      "branch_length": 0.0005508606999999888
     },
     "yHCT94": {
-      "branch_length": 0.004694829
+      "branch_length": 0.004694828999999956
     },
     "yHCT96": {
-      "branch_length": 0.0072650508
+      "branch_length": 0.007265050800000061
     },
     "yHCT99": {
-      "branch_length": 0.0049091636
+      "branch_length": 0.004909163600000044
     },
     "yHDPN422": {
-      "branch_length": 3.3313e-06
+      "branch_length": 3.331299999964621e-06
     },
     "yHDPN423": {
-      "branch_length": 5.5448e-06
+      "branch_length": 5.544799999923633e-06
     },
     "yHDPN424": {
-      "branch_length": 5.5749e-06
+      "branch_length": 5.5748999999716276e-06
     },
     "yHKS210": {
-      "branch_length": 3.503e-07
+      "branch_length": 3.50300000007131e-07
     },
     "yHKS211": {
-      "branch_length": 4.4541e-06
+      "branch_length": 4.454100000050865e-06
     },
     "yHKS212": {
-      "branch_length": 4.04172e-05
+      "branch_length": 4.041720000003135e-05
     },
     "yHKS509": {
-      "branch_length": 0.0090510984
+      "branch_length": 0.009051098400000068
     },
     "yHRVM107": {
-      "branch_length": 3.3314e-06
+      "branch_length": 3.3314000000839172e-06
     },
     "yHRVM108": {
-      "branch_length": 2.3398e-06
+      "branch_length": 2.339800000084047e-06
     }
   }
 }
