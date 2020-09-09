@@ -63,7 +63,7 @@ Now, run (20 parallel processes):
 ```cat VSCBS12357.list | xargs -n1 -P20 sh Gatk_CBS12357_scr.sh```
 
 
-# Filter 
+## Variants filter and comparison
 
 1. Filter variants by coverage > 4 mapping reads, mapping quality > 30 and phred score > 20. Save the following script as ```bcftools_CBS12357_scr.sh```.
 
@@ -73,4 +73,13 @@ base=${1##*/}; bcftools view -i 'FORMAT/AO>4 & MQM>30 & FORMAT/QA>20' vcf_freeba
 
 Now, run (50 parallel processes):
 
-```cat VSCBS12357_rep.list | xargs -n1 -P50 sh bcftools_CBS12357_scr.sh```
+```cat VSCBS12357.list | xargs -n1 -P50 sh bcftools_CBS12357_scr.sh```
+
+2. Run vcfallelic to compare among programs. Save the following script as ``` vcfallelicprim_CBS12357.sh```.
+
+```base=${1##*/}; vcfallelicprimitives vcf_freebayes_CBS12357_filt/${base%_*}.fb.filt.vcf > vcf_freebayes_CBS12357_filt/${base%_*}.fb.filt.all.vcf;  vcfallelicrimitives vcf_gatk_CBS12357_filt/${base%_*}.gatk.filt.vcf > vcf_gatk_CBS12357_filt/${base%_*}.gatk.filt.all.vcf```
+
+Now, run (50 parallel processes):
+
+```cat VSCBS12357.list | xargs -n1 -P50 sh vcfallelicprim_CBS12357.sh```
+
