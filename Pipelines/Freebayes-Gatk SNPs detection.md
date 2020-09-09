@@ -83,3 +83,4 @@ Now, run (50 parallel processes):
 
 ```cat VSCBS12357.list | xargs -n1 -P50 sh vcfallelicprim_CBS12357.sh```
 
+3. Compare SNPs in all strains using the python script [vcf_comparison.py](). Change path to folder containing filtered vcf files. 
