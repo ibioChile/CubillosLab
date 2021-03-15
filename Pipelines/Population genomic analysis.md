@@ -68,9 +68,19 @@ gatk CombineGVCFs -R databases/CBS12357_polished_20170509.fasta -V gatk_vcf.list
 gatk GenotypeGVCFs -R databases/CBS12357_polished_20170509.fasta --variant all_samples_combined.gatk.vcf --output all_samples_variants.gatk.vcf
 ```
 
-Now, run (50 parallel processes):
+## Phylogenetic Analysis:
 
-```cat VSCBS12357.list | xargs -n1 -P50 sh bcftools_CBS12357_scr.sh```
+The details of this pipeline can be found [here](https://github.com/carvillarroel/Genetics/blob/master/Genetic%20Analyses%20from%20WGS%20-%20Phylogenetic%20tree%20and%20structure.md)
+
+In summary:
+
+```
+vcftools --max-missing 1 --max-alleles 2 --vcf all_samples_variants.gatk.vcf --recode --recode-INFO-all --out GATK_CBS12357_filt_merged
+python vcf2phylip -i GATK_CBS12357_filt_merged.recode.vcf
+iqtree -s GATK_CBS12357_filt_merged.recode.min4.phy -st DNA -o CL1105.1 -m GTR+ASC -nt 10
+iqtree -s GATK_CBS12357_filt_merged.recode.min4.phy.varsites.phy -st DNA -o CL1105.1  -m GTR+ASC -nt 10 -bb 1000 -redo
+```
+
 
 2. Run vcfallelic to compare among programs. Save the following script as ``` vcfallelicprim_CBS12357.sh```.
 
