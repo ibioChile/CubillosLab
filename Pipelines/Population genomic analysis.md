@@ -81,7 +81,46 @@ iqtree -s GATK_CBS12357_filt_merged.recode.min4.phy -st DNA -o CL1105.1 -m GTR+A
 iqtree -s GATK_CBS12357_filt_merged.recode.min4.phy.varsites.phy -st DNA -o CL1105.1  -m GTR+ASC -nt 10 -bb 1000 -redo
 ```
 
-## Phylogenetic Analysis:
+## Structure Analysis:
+
+The details of this pipeline can be found [here](https://github.com/carvillarroel/Genetics/blob/master/Genetic%20Analyses%20from%20WGS%20-%20Phylogenetic%20tree%20and%20structure.md)
+
+In summary:
+
+```
+grep -Ev '^CBS12357_mtDNA_polished' all_samples_variants.gatk.vcf > all_samples_variants.gatk.filt.vcf
+vcftools --remove remove.txt --vcf all_samples_variants.gatk.filt.vcf --recode --recode-INFO-all --non-ref-ac-any 1 --out onlyeub
+./plink_pruning_prep.sh onlyeub.recode.vcf
+plink --vcf onlyeub.recode_annot.vcf --double-id --allow-extra-chr --indep-pairwise 50 10 0.2 --out onlyeub_ldfilter --threads 10
+
+sed 's/polished_/polished\t/' onlyeub_ldfilter.prune.in > onlyeub_ldfilter.prune.in.vcftools
+vcftools --vcf onlyeub.recode.vcf --positions onlyeub_ldfilter.prune.in.vcftools --recode-INFO-all --recode --out onlyeub_ldfilter
+
+vcftools --vcf onlyeub_ldfilter.recode.vcf --thin 1000 --recode --recode-INFO-all --out onlyeub_ldfilter_thinned
+
+mkdir onlyeub_structure
+populations -t 10 -V onlyeub_ldfilter_thinned.recode.vcf -O onlyeub_structure --structure
+
+cd onlyeub_structure
+tail -n +2 onlyeub_ldfilter_thinned.recode.p.structure > onlyeub_structure.txt
+cd ..
+
+for m in {2..8}
+do
+sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i onlyeub_structure/onlyeub_structure.txt -o onlyeub_structure_res_K.${m}_rep1 &$
+sleep 30
+sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i onlyeub_structure/onlyeub_structure.txt -o onlyeub_structure_res_K.${m}_rep2 &$
+sleep 30
+sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i onlyeub_structure/onlyeub_structure.txt -o onlyeub_structure_res_K.${m}_rep3 &$
+sleep 30
+sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i onlyeub_structure/onlyeub_structure.txt -o onlyeub_structure_res_K.${m}_rep4 &$
+sleep 30
+sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i onlyeub_structure/onlyeub_structure.txt -o onlyeub_structure_res_K.${m}_rep5 &$
+sleep 30
+sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i onlyeub_structure/onlyeub_structure.txt -o onlyeub_structure_res_K.${m}_rep6 &$
+sleep 30
+done
+```
 
 2. Run vcfallelic to compare among programs. Save the following script as ``` vcfallelicprim_CBS12357.sh```.
 
