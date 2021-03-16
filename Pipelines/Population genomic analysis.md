@@ -121,13 +121,59 @@ sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i o
 sleep 30
 done
 ```
+## FineStructure Analysis:
 
-2. Run vcfallelic to compare among programs. Save the following script as ``` vcfallelicprim_CBS12357.sh```.
+The details of this pipeline can be found [here](https://github.com/carvillarroel/Genetics/blob/master/Genetic%20Analyses%20from%20WGS%20-%20fineStructure%20and%20Globetrotter.md)
 
-```base=${1##*/}; vcfallelicprimitives vcf_freebayes_CBS12357_filt/${base%_*}.fb.filt.vcf > vcf_freebayes_CBS12357_filt/${base%_*}.fb.filt.all.vcf;  vcfallelicrimitives vcf_gatk_CBS12357_filt/${base%_*}.gatk.filt.vcf > vcf_gatk_CBS12357_filt/${base%_*}.gatk.filt.all.vcf```
+In summary:
 
-Now, run (50 parallel processes):
+```
+SnpSift split onlyeub.recode.vcf
 
-```cat VSCBS12357.list | xargs -n1 -P50 sh vcfallelicprim_CBS12357.sh```
+plink --vcf onlyeub.recode.CBS12357_Chr01_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr1
+plink --vcf onlyeub.recode.CBS12357_Chr02_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr2
+plink --vcf onlyeub.recode.CBS12357_Chr03_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr3
+plink --vcf onlyeub.recode.CBS12357_Chr04_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr4
+plink --vcf onlyeub.recode.CBS12357_Chr05_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr5
+plink --vcf onlyeub.recode.CBS12357_Chr06_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr6
+plink --vcf onlyeub.recode.CBS12357_Chr07_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr7
+plink --vcf onlyeub.recode.CBS12357_Chr08_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr8
+plink --vcf onlyeub.recode.CBS12357_Chr09_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr9
+plink --vcf onlyeub.recode.CBS12357_Chr10_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr10
+plink --vcf onlyeub.recode.CBS12357_Chr11_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr11
+plink --vcf onlyeub.recode.CBS12357_Chr12_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr12
+plink --vcf onlyeub.recode.CBS12357_Chr13_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr13
+plink --vcf onlyeub.recode.CBS12357_Chr14_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr14
+plink --vcf onlyeub.recode.CBS12357_Chr15_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr15
+plink --vcf onlyeub.recode.CBS12357_Chr16_polished.vcf --recode12 --allow-extra-chr --double-id --geno 1 --out chr16
 
-3. Compare SNPs in all strains using the pyth
+for i in {1..16}
+do
+bash phasing_pipeline/run.sh chr${i}.ped chr${i}.map chr${i}
+done
+
+for i in {1..16}
+do
+perl fs_4.1.1/plink2chromopainter.pl -p=chr${i}.phased.ped -m=chr${i}.phased.map -o=chr${i}.chromopainter -f
+done
+
+for i in {1..16}
+do
+perl fs_4.1.1/makeuniformrecfile.pl chr${i}.chromopainter chr${i}_rec
+done
+
+for i in {1..2};do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done &
+for i in {3..4};do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done &
+for i in {5..6};do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done &
+for i in {7..8};do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done &
+for i in {9..10};do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done &
+for i in {11..12};do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done &
+for i in {13..14; do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done &
+for i in {15..16}; do fs_4.1.1/fs_linux_glibc2.3 chromopainter -g chr${i}.chromopainter -r chr${i}_rec -t idfile.txt -o cp_chr${i} -a 0 0;done
+
+fs_4.1.1/fs_linux_glibc2.3 chromocombine -d datos
+fs_4.1.1/fs_linux_glibc2.3 finestructure  -x 100000 -y 100000 -z 1000 -X -Y output.chunkcounts.out out.105eubs.mcmc.xml
+fs_4.1.1/fs_linux_glibc2.3 finestructure -x 100000 -k 2 -m T -t 1000000 -X -Y output.chunkcounts.out out.105eubs.mcmc.xml structure_tree.out
+fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e meancoincidence output.chunkcounts.out out.105eubs.mcmc.xml structure_meancoincidence.csv
+fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e X2  output.chunkcounts.out out.105eubs.mcmc.xml structure_meanstate.csv
+```
