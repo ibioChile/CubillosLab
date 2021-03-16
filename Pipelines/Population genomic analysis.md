@@ -201,3 +201,6 @@ fs_4.1.1/fs_linux_glibc2.3 finestructure -x 100000 -k 2 -m T -t 1000000 -X -Y ou
 fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e meancoincidence output.chunkcounts.out out.105eubs.mcmc.xml structure_meancoincidence.csv
 fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e X2  output.chunkcounts.out out.105eubs.mcmc.xml structure_meanstate.csv
 ```
+
+Process output files using the following R script:
+
