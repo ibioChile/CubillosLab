@@ -121,6 +121,30 @@ sbatch --wrap="structure -m mainparams -p extraparams -K $m -L 10354 -N 285 -i o
 sleep 30
 done
 ```
+
+Optimal K values can be obtained using [structure-selector](http://lmme.qdio.ac.cn/ StructureSelector/) (Li & Liu, 2018) according to the Evanno method (Evanno et al. 2005). The resulting plots were obtained using CLUMPAK (Kopelman et al. 2015) and visualized using [Structure Plot V2.0](http://omicsspeaks.com/strplot2/) (Ramasamy et al. 2014). 
+
+## Admixture Analysis:
+
+Install Admixture:
+
+```conda install -c bioconda admixture```
+
+Script:
+
+```
+plink --vcf onlyeub.recode_annot.vcf --double-id --allow-extra-chr --indep-pairwise 50 5 0.2 --maf 0.05 --out onlyeub_ldfilter --make-bed --threads 10
+awk '{$1=0;print $0}' onlyeub_ldfilter.bim > onlyeub_ldfilter.bim.tmp
+mv  onlyeub_ldfilter.bim.tmp  onlyeub_ldfilter.bim
+
+for k in {2..10}
+do
+admixture -j20 --cv onlyeub_ldfilter.bed $k > onlyeub_ldfilter.$k.log
+done
+```
+
+Use [structure-selector](http://lmme.qdio.ac.cn/ StructureSelector/) (Li & Liu, 2018) to select K value.
+
 ## FineStructure Analysis:
 
 The details of this pipeline can be found [here](https://github.com/carvillarroel/Genetics/blob/master/Genetic%20Analyses%20from%20WGS%20-%20fineStructure%20and%20Globetrotter.md)
@@ -176,23 +200,4 @@ fs_4.1.1/fs_linux_glibc2.3 finestructure  -x 100000 -y 100000 -z 1000 -X -Y outp
 fs_4.1.1/fs_linux_glibc2.3 finestructure -x 100000 -k 2 -m T -t 1000000 -X -Y output.chunkcounts.out out.105eubs.mcmc.xml structure_tree.out
 fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e meancoincidence output.chunkcounts.out out.105eubs.mcmc.xml structure_meancoincidence.csv
 fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e X2  output.chunkcounts.out out.105eubs.mcmc.xml structure_meanstate.csv
-```
-
-## Admixture Analysis:
-
-Install Admixture:
-
-```conda install -c bioconda admixture```
-
-Script:
-
-```
-plink --vcf onlyeub.recode_annot.vcf --double-id --allow-extra-chr --indep-pairwise 50 5 0.2 --maf 0.05 --out onlyeub_ldfilter --make-bed --threads 10
-awk '{$1=0;print $0}' onlyeub_ldfilter.bim > onlyeub_ldfilter.bim.tmp
-mv  onlyeub_ldfilter.bim.tmp  onlyeub_ldfilter.bim
-
-for k in {2..10}
-do
-admixture -j20 --cv onlyeub_ldfilter.bed $k > onlyeub_ldfilter.$k.log
-done
 ```
