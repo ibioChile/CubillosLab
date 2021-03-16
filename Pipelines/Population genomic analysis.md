@@ -81,6 +81,7 @@ iqtree -s GATK_CBS12357_filt_merged.recode.min4.phy -st DNA -o CL1105.1 -m GTR+A
 iqtree -s GATK_CBS12357_filt_merged.recode.min4.phy.varsites.phy -st DNA -o CL1105.1  -m GTR+ASC -nt 10 -bb 1000 -redo
 ```
 
+## Phylogenetic Analysis:
 
 2. Run vcfallelic to compare among programs. Save the following script as ``` vcfallelicprim_CBS12357.sh```.
 
