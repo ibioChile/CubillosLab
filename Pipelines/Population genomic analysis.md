@@ -177,3 +177,22 @@ fs_4.1.1/fs_linux_glibc2.3 finestructure -x 100000 -k 2 -m T -t 1000000 -X -Y ou
 fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e meancoincidence output.chunkcounts.out out.105eubs.mcmc.xml structure_meancoincidence.csv
 fs_4.1.1/fs_linux_glibc2.3 finestructure -X -Y -e X2  output.chunkcounts.out out.105eubs.mcmc.xml structure_meanstate.csv
 ```
+
+## Admixture Analysis:
+
+Install Admixture:
+
+```conda install -c bioconda admixture```
+
+Script:
+
+```
+plink --vcf onlyeub.recode_annot.vcf --double-id --allow-extra-chr --indep-pairwise 50 5 0.2 --maf 0.05 --out onlyeub_ldfilter --make-bed --threads 10
+awk '{$1=0;print $0}' onlyeub_ldfilter.bim > onlyeub_ldfilter.bim.tmp
+mv  onlyeub_ldfilter.bim.tmp  onlyeub_ldfilter.bim
+
+for k in {2..10}
+do
+admixture -j20 --cv onlyeub_ldfilter.bed $k > onlyeub_ldfilter.$k.log
+done
+```
